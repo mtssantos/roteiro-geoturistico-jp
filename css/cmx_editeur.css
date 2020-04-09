@@ -1,0 +1,17 @@
+/* UTF-8 Ã  jamais */
+#cmx_contenu div.bloc ul.cmx_editeur,div.bloc ol.cmx_editeur{
+	margin:0.5em 0;
+	padding:0 0 0 2em;
+}
+#cmx_contenu div.bloc ul.cmx_editeur{
+}
+#cmx_contenu div.bloc ul.cmx_editeur li{
+	list-style-type:disc;
+	line-height:1.79em;
+}
+#cmx_contenu div.bloc ol.cmx_editeur{
+}
+#cmx_contenu div.bloc ol.cmx_editeur li{
+	list-style-type:decimal;
+	line-height:1.79em;
+}

@@ -1,0 +1,52 @@
+/* UTF-8 Ã  jamais */
+.page #corps{
+}
+.page #corps h1{
+	color:#fff;
+}
+.page #pied{
+	clear:both;
+}
+/* ==== Sections === */
+div.section{
+	clear:both;
+}
+/* ---- 1 colonnes --- */
+div.section_1col{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+div.section_1col #cmx_contenu{
+	width:100%;
+}
+/* ---- 2 colonnes --- */
+div.section_2col{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+div.section_2col #cmx_contenu{
+	width:576px;
+	float:right;
+}
+div.section_2col #cmx_encart{
+	width:238px;
+	padding-right:60px;
+	text-align:right;
+	float:left;
+}
+/* ---- 3 colonnes --- */
+.cmx_3col{
+	width:278px;
+	padding-right:20px;
+	float:left;
+}
+.cmx_3col.gauche{
+}
+.cmx_3col.centre{
+}
+.cmx_3col.droite{
+	width:278px;
+	padding-right:0;
+}

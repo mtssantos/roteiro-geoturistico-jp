@@ -1,0 +1,12 @@
+/* UTF-8 Ã  jamais */
+#entete_haut_contenu ul.lang{
+	position:absolute;
+	top:14px;
+	right:70px;
+}
+#entete_haut_contenu ul.lang li a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	line-height:15px;
+}

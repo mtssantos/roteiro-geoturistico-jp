@@ -1,0 +1,213 @@
+/* UTF-8 Ã  jamais */
+#responsive_palier{
+	width:1280px;
+}
+#entete_contenu,
+#entete #bloc_sous_menu #sous_menu,
+#entete #bloc_sous_menu ul.sous_menu_detail,
+.instagram_contenu,
+.reseaux_contenu,
+#sitra_entete_contenu,
+#sitra_fiche_contenu,
+#sitra_fiche_adresse_contenu,
+.credits,
+.mentionslegales,
+.plandusite,
+#widget_koezio_38{
+	width:1152px;
+}
+#entete_haut_contenu{
+	width:1220px;
+}
+/*----- HOME -----*/
+#image_home li div.info_texte{
+	width:1152px;
+	left:calc(50% - 576px);
+}
+#intro_home,
+#bloc_news_sitra,
+#bloc_facebook{
+	width:1152px;
+}
+#intro_home h2,
+#intro_home p,
+#intro_home a.intro{
+	width:600px;
+}
+/*----- Fil ariane -----*/
+#bloc_fil_ariane{
+	width:1152px;
+}
+ul#fil_ariane{
+	width:704px;
+	margin-left:448px;
+}
+.page_sitra2 ul#fil_ariane,
+.page_sitra_fiche ul#fil_ariane,
+.page_news ul#fil_ariane,
+.page_telechargement ul#fil_ariane,
+.page_recherche ul#fil_ariane,
+.page_detail_news ul#fil_ariane{
+	width:1024px;
+	margin-left:64px;
+}
+/*----- CMX -----*/
+#cmx_contenu div.bloc_contenu{
+	width:1152px;
+}
+#cmx_contenu div.bloc h2{
+	width:256px;
+	padding:32px 64px;
+}
+#cmx_contenu div.bloc h3.sous_titre_contenu{
+	width:256px;
+	padding:45px 64px 16px 64px;
+	background-position:64px bottom;
+}
+#cmx_contenu div.bloc_form_contact div.colonne_txt{
+	width:256px;
+	padding:45px 64px 16px 64px;
+	background-position:64px bottom;
+}
+#cmx_contenu div.bloc_gauche ul.images{
+	margin-left:-64px;
+	margin-top:-100px;
+}
+#cmx_contenu div.bloc_gauche-centre ul.images{
+	margin-top:64px;
+}
+#cmx_contenu div.bloc_gauche .colonne,
+#cmx_contenu div.bloc_revue-presse .colonne,
+#cmx_contenu div.bloc_gauche-centre .colonne{
+	padding-left:128px;
+	padding-right:128px;
+	padding-top:32px;
+}
+#cmx_contenu div.bloc_gauche_avec_images .colonne,
+#cmx_contenu div.bloc_gauche-centre_avec_images .colonne{
+	padding-left:64px;
+	padding-right:128px;
+	padding-top:0;
+}
+#cmx_contenu div.bloc_droite ul.images{
+	margin-right:-64px;
+	margin-top:-100px;
+}
+#cmx_contenu div.bloc_droite-centre ul.images{
+	margin-top:64px;
+}
+#cmx_contenu div.bloc_droite .colonne,
+#cmx_contenu div.bloc_droite-centre .colonne{
+	padding-left:128px;
+	padding-right:128px;
+	padding-top:32px;
+}
+#cmx_contenu div.bloc_droite_avec_images .colonne,
+#cmx_contenu div.bloc_droite-centre_avec_images .colonne{
+	padding-left:128px;
+	padding-right:64px;
+}
+#cmx_contenu div.bloc_sous-titre .colonne{
+	padding-left:64px;
+	padding-right:128px;
+	padding-top:32px;
+}
+#cmx_contenu div.bloc_fond ul.images{
+	margin-right:-64px;
+}
+#cmx_contenu div.bloc_fond .colonne{
+	padding-left:128px;
+	padding-right:128px;
+	padding-top:32px;
+}
+#cmx_contenu div.bloc_fond_avec_images .colonne{
+	padding-left:128px;
+	padding-right:0;
+}
+#cmx_contenu div.bloc_form_contact .colonne_info_complementaire{
+	padding-left:64px;
+	padding-right:64px;
+	padding-top:45px;
+}
+/*----- Reseaux -----*/
+.reseaux_contenu h2{
+	width:256px;
+	padding:32px 64px;
+	width:270px;/* jerome 28.09.2016 */
+	padding-right:50px;/* jerome 28.09.2016 */
+}
+/*----- News -----*/
+.liste_news_entete h1,
+.liste_detail_news_entete a{
+	width:256px;
+	padding:32px 64px;
+}
+.liste_news_contenu,
+.news_contenu{
+	width:1024px;
+}
+.liste_news_entete h1,
+.liste_detail_news_entete a{
+	margin-left:calc(50% - 576px);
+}
+/*----- telechargement -----*/
+.telechargement_entete h1{
+	width:256px;
+	padding:32px 64px;
+	margin-left:calc(50% - 576px);
+}
+#liste_telechargement{
+	width:896px;
+	padding:75px 0;
+}
+/*----- recherche -----*/
+.recherche_entete h1{
+	width:256px;
+	padding:32px 64px;
+	margin-left:calc(50% - 576px);
+}
+#moteur_recherche_resultats{
+	width:1024px;
+	padding:75px 0;
+}
+/*----- espace privÃ© -----*/
+.espace_prive{
+	width:1024px;
+}
+/*----- Sitra -----*/
+#sitra_entete_contenu h2{
+	width:256px;
+	padding:32px 64px;
+}
+.sitra_fiche #sitra_entete_contenu h2{
+	width:384px;
+	padding:0;
+}
+.sitra_fiche #sitra_entete_contenu h2 a{
+	width:256px;
+	padding:32px 64px;
+}
+.sitra_entete_news h1,
+.sitra_entete_news_detail a{
+	width:256px;
+	padding:32px 64px;
+}
+.sitra_entete_news h1,
+.sitra_entete_news_detail a{
+	margin-left:calc(50% - 576px);
+}
+#fiches_sitra,
+#form_filtre{
+	width:1024px;
+}
+/*------- Credits, ML, Plan -------*/
+.credits h2,
+.mentionslegales h2,
+.plandusite h2{
+	width:256px;
+	padding:32px 64px;
+}
+.mentionslegales h3{
+	width:256px;
+	padding:16px 64px;
+}

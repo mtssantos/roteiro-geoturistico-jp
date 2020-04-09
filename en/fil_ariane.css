@@ -1,0 +1,29 @@
+/* UTF-8 Ã  jamais */
+#bloc_fil_ariane{
+	margin:0 auto;
+	position:relative;
+}
+ul#fil_ariane{
+	border-bottom:1px solid #d6d6d6;
+	padding:23px 0 17px 0;
+	float:left;
+}
+.page_sitra2 ul#fil_ariane,
+.page_sitra_fiche ul#fil_ariane,
+.page_news ul#fil_ariane,
+.page_telechargement ul#fil_ariane,
+.page_recherche ul#fil_ariane,
+.page_detail_news ul#fil_ariane{
+	border-bottom:0;
+}
+ul#fil_ariane li{
+	float:left;
+	color:#63b32e;
+	
+}
+ul#fil_ariane li a,
+ul#fil_ariane li span{
+	text-decoration:none;
+	color:#7a7a7a;
+	font-size:0.93em;
+}

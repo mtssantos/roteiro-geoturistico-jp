@@ -1,0 +1,65 @@
+/* UTF-8 Ã  jamais */
+.nexslide{
+	position:relative;
+	width:437px;
+	height:328px;
+	overflow:hidden;
+}
+.nexslide ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:999999px;
+	height:328px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.nexslide li{
+	margin:0;
+	padding:0;
+	float:left;
+	width:437px;
+	height:328px;
+	position:relative;
+	overflow:hidden;
+}
+.nexslide li img{
+	margin:0 auto;
+	padding:0;
+	display:block;
+}
+.nexslide li span{
+	zoom:1;
+	background-color:#000;
+	opacity:1;filter:alpha(opacity=100);
+	
+	display:block;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+/*.nexslide li:hover span{
+	display:none;
+}*/
+#cmx_contenu div.bloc .nexslide li span p{
+	margin:0;
+	padding:0;
+	padding:1em 3em;
+	color:#fff;
+	font-weight:bold;
+}
+.nexslide a{
+	color:#000;
+}
+.nexslide a.prec{
+	position:absolute;
+	bottom:1em;
+	left:1em;
+}
+.nexslide a.suiv{
+	position:absolute;
+	bottom:1em;
+	right:1em;
+}
