@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta name="description" content="">
+	<title>Definition</title>
+	<meta name="description" content=" ">
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 	
-	<link href="init.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/init.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="geo.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/geo.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="cmx.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/cmx.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="nexslide.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/nexslide.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="fil_ariane.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/fil_ariane.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="lang.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/lang.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="home.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/home.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="cmx_contenu.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/cmx_contenu.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="cmx_editeur.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/cmx_editeur.css" rel="stylesheet" type="text/css" media="all">
 	
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-	<link rel="stylesheet" media="screen and (max-width: 767px)" href="style320.css" type="text/css">
-	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="style768.css" type="text/css">
-	<link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="style1024.css" type="text/css">
-	<link rel="stylesheet" media="screen and (min-width: 1280px)" href="style1280.css" type="text/css">
-	<link href="print.css" rel="stylesheet" type="text/css" media="print">
+	
+	<link rel="stylesheet" media="screen and (max-width: 767px)" href="css/style320.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css/style768.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="css/style1024.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 1280px)" href="css/style1280.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
 
 
-	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="fct.js"></script>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script>
+  
+  <script type="text/javascript" src="js/fct.js"></script>
 	
-	<script type="text/javascript" src="mailto.js"></script>
+	<script type="text/javascript" src="js/mailto.js"></script>
 	
-	<script type="text/javascript" src="class.js"></script>
+	<script type="text/javascript" src="js/class.js"></script>
 	
-	<script type="text/javascript" src="preload_images.js"></script>
+	<script type="text/javascript" src="js/preload_images.js"></script>
 	
-	<script type="text/javascript" src="menu.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
 	
-	<script type="text/javascript" src="nexslide.js"></script>
+	<script type="text/javascript" src="js/nexslide.js"></script>
 	
-	<script type="text/javascript" src="opacity.js"></script>
+	<script type="text/javascript" src="js/opacity.js"></script>
 	
-	<script type="text/javascript" src="home.js"></script>
-    <title>Definition</title>
-    <style>
-     .dropdown:hover>.dropdown-menu {
+	<script type="text/javascript" src="js/home.js"></script>
+
+	<style>
+    .lista-menu{
+      display:none; 
+    }
+    .dropdown-reduzid{
+      display:none;
+    }
+    .dropdown-new-reduzid{
+      display:none;
+    }
+    .dropdown:hover>.dropdown-menu {
      		display: block;
         background-color:grey;
 		    }
-      .menu-lista{
-      display:none; 
-      }
 
 
+	</style>
 
-    </style>
+	
 </head>
 <body class="home" onload="
 mel2_onload();
@@ -87,17 +97,18 @@ recherche_load();
   
 
   <div id="main" class="home page_">
-  <div id="menu_tactile">
-      <span id="btn_ferme_menu" onclick="ferme_menu_tactile();"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+	<div id="menu_tactile">
+		<span id="btn_ferme_menu" onclick="ferme_menu_tactile();"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      <a href="" class="logo"  style="margin-left:25%;"><img src="logo-nova.png"></a>
+		<a href="" class="logo"  style="margin-left:25%;"><img src="media/logo-nova.png"></a>
 
 
 <ul class="menu" >
 
 <li class=" pere menu_1" ><a href="">HOME</a></li>
+
 <li class=" pere menu_2">
     <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
       GEOTOURISM
@@ -112,179 +123,215 @@ recherche_load();
     </div>
 
 </li>
+<li class=" pere menu_3">
+ 
+    <a data-toggle="collapse" href="#dropdownMenuLink" role="button" aria-expanded="false" aria-controls="collapseExample">
+      EXPLORE
+    </a>
+  <div class="dropdown-reduzid" id="dropdownMenuLink">
+    <a class="dropdown-item" href="criterios.html" target="_blank">Criteria</a>
+    <a class="dropdown-item" href="locais.html">Places of Interest</a>
+    <a class="dropdown-item" href="#">Files</a>
+    <a data-toggle="collapse" href="#dropdownMenuLink-1" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Thematic Exploration
+    </a>
+  <div class="dropdown-new-reduzid" id="dropdownMenuLink-1">
+    <a class="dropdown-item" href="#">Cultural Heritage</a>
+    <a class="dropdown-item" href="#">Geodiversity</a>
+    <a class="dropdown-item" href="#">Geopatrimony</a>
 
-<li class=" pere avant_logo menu_3"><a href="404.html">EXPLORE</a></li>
+    
+  </div>
 
+  </div>
+</li>
 
 <li class=" pere menu_4"><a href="404.html">OUR TERRITORY</a></li>
 
+<li class=" pere menu_5"><a href="404.html">PUBLISHING</a></li>
+
 
 <li class=" pere menu_5" style="border:0;"><a href="../"><img src="https://a-static.mlcdn.com.br/618x463/adesivo-bandeira-do-brasil-clickfik/clickfik/5939/716a5bdd1fe89b3c2968c964ec79aa50.jpg" width="55px" height="45px"></a>  
-
-
+  
 </ul>
-
-
-  </div>
-  <div id="entete">
-      <div id="bloc_moteur_recherche">
-  <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.938" height="18.937" viewBox="0 0 18.938 18.937">
-<path id="Forme_30" data-name="Forme 30" class="cls-1" d="M990.19,415.518l8.6-8.627a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627-8.607-8.627a0.5,0.5,0,1,0-.7.705l8.605,8.627-8.605,8.627a0.5,0.5,0,0,0,.7.706l8.606-8.627,8.606,8.627a0.5,0.5,0,1,0,.705-0.706l-8.606-8.627h0Z" transform="translate(-980.031 -406.063)"></path>
+	</div>
+	<div id="entete">
+		<div id="bloc_moteur_recherche">
+	<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.938" height="18.937" viewBox="0 0 18.938 18.937">
+  <path id="Forme_30" data-name="Forme 30" class="cls-1" d="M990.19,415.518l8.6-8.627a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627-8.607-8.627a0.5,0.5,0,1,0-.7.705l8.605,8.627-8.605,8.627a0.5,0.5,0,0,0,.7.706l8.606-8.627,8.606,8.627a0.5,0.5,0,1,0,.705-0.706l-8.606-8.627h0Z" transform="translate(-980.031 -406.063)"></path>
 </svg>
 </span>
-  
+	
 </div>
-      <div id="bloc_sous_menu">
-  
-  
-  <div id="entete_sous_menu">
-      <span id="btn_ferme_menu"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		<div id="bloc_sous_menu">
+	
+	
+	<div id="entete_sous_menu">
+		<span id="btn_ferme_menu"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-  
-      <div id="bloc_reseaux_tactile">
-          <a href="https://www.facebook.com/GeoparkBeaujolais/" target="_blank" id="lien_facebook_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="19.18" height="19.188" viewBox="0 0 19.18 19.188">
-<path fill="#fff" d="M1216.66,33.6h-9.2a1.057,1.057,0,0,1-1.06-1.06V15.46a1.057,1.057,0,0,1,1.06-1.06h17.08a1.057,1.057,0,0,1,1.06,1.06V32.54a1.057,1.057,0,0,1-1.06,1.06h-4.89V26.164h2.49l0.38-2.9h-2.87v-1.85a1.2,1.2,0,0,1,1.43-1.41h1.54V17.414a20.63,20.63,0,0,0-2.24-.114,3.487,3.487,0,0,0-3.72,3.83v2.137h-2.51v2.9h2.51V33.6h0Z" transform="translate(-1206.41 -14.406)"></path>
+	
+		<div id="bloc_reseaux_tactile">
+			<a href="https://www.facebook.com/GeoparkBeaujolais/" target="_blank" id="lien_facebook_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="19.18" height="19.188" viewBox="0 0 19.18 19.188">
+  <path fill="#fff" d="M1216.66,33.6h-9.2a1.057,1.057,0,0,1-1.06-1.06V15.46a1.057,1.057,0,0,1,1.06-1.06h17.08a1.057,1.057,0,0,1,1.06,1.06V32.54a1.057,1.057,0,0,1-1.06,1.06h-4.89V26.164h2.49l0.38-2.9h-2.87v-1.85a1.2,1.2,0,0,1,1.43-1.41h1.54V17.414a20.63,20.63,0,0,0-2.24-.114,3.487,3.487,0,0,0-3.72,3.83v2.137h-2.51v2.9h2.51V33.6h0Z" transform="translate(-1206.41 -14.406)"></path>
 </svg>
 </a>
-          <a href="https://www.instagram.com/geoparkbeaujolais/" target="_blank" id="lien_instagram_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 18.5 18.5">
-<path fill="#fff" d="M1246.25,15c-2.51,0-2.83.011-3.81,0.056a6.782,6.782,0,0,0-2.25.43,4.57,4.57,0,0,0-1.64,1.067,4.485,4.485,0,0,0-1.06,1.638,6.635,6.635,0,0,0-.43,2.246c-0.05.986-.06,1.3-0.06,3.814s0.01,2.827.06,3.814a6.633,6.633,0,0,0,.43,2.245,4.489,4.489,0,0,0,1.06,1.638,4.585,4.585,0,0,0,1.64,1.067,6.809,6.809,0,0,0,2.25.43c0.98,0.045,1.3.056,3.81,0.056s2.83-.011,3.81-0.056a6.809,6.809,0,0,0,2.25-.43,4.585,4.585,0,0,0,1.64-1.067,4.489,4.489,0,0,0,1.06-1.638,6.633,6.633,0,0,0,.43-2.245c0.05-.987.06-1.3,0.06-3.814s-0.01-2.827-.06-3.814a6.635,6.635,0,0,0-.43-2.245,4.485,4.485,0,0,0-1.06-1.638,4.57,4.57,0,0,0-1.64-1.067,6.782,6.782,0,0,0-2.25-.43C1249.08,15.01,1248.76,15,1246.25,15Zm0,1.667c2.47,0,2.76.01,3.74,0.054a5.176,5.176,0,0,1,1.72.318,2.837,2.837,0,0,1,1.06.692,2.938,2.938,0,0,1,.69,1.064,5,5,0,0,1,.32,1.718c0.04,0.975.05,1.268,0.05,3.738s-0.01,2.762-.05,3.738a4.99,4.99,0,0,1-.32,1.717,2.936,2.936,0,0,1-.69,1.064,2.842,2.842,0,0,1-1.06.692,5.168,5.168,0,0,1-1.72.318c-0.98.045-1.27,0.054-3.74,0.054s-2.76-.009-3.74-0.054a5.168,5.168,0,0,1-1.72-.318,2.842,2.842,0,0,1-1.06-.692,2.936,2.936,0,0,1-.69-1.064,4.99,4.99,0,0,1-.32-1.717c-0.04-.976-0.05-1.268-0.05-3.738s0.01-2.762.05-3.738a5,5,0,0,1,.32-1.718,2.938,2.938,0,0,1,.69-1.064,2.837,2.837,0,0,1,1.06-.692,5.176,5.176,0,0,1,1.72-.318C1243.49,16.676,1243.78,16.666,1246.25,16.666Zm0,2.834a4.75,4.75,0,1,0,4.75,4.75A4.752,4.752,0,0,0,1246.25,19.5Zm0,7.833a3.083,3.083,0,1,1,3.08-3.083A3.082,3.082,0,0,1,1246.25,27.333Zm6.05-8.021a1.11,1.11,0,1,1-1.11-1.11A1.112,1.112,0,0,1,1252.3,19.312Z" transform="translate(-1237 -15)"></path>
+			<a href="https://www.instagram.com/geoparkbeaujolais/" target="_blank" id="lien_instagram_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 18.5 18.5">
+  <path fill="#fff" d="M1246.25,15c-2.51,0-2.83.011-3.81,0.056a6.782,6.782,0,0,0-2.25.43,4.57,4.57,0,0,0-1.64,1.067,4.485,4.485,0,0,0-1.06,1.638,6.635,6.635,0,0,0-.43,2.246c-0.05.986-.06,1.3-0.06,3.814s0.01,2.827.06,3.814a6.633,6.633,0,0,0,.43,2.245,4.489,4.489,0,0,0,1.06,1.638,4.585,4.585,0,0,0,1.64,1.067,6.809,6.809,0,0,0,2.25.43c0.98,0.045,1.3.056,3.81,0.056s2.83-.011,3.81-0.056a6.809,6.809,0,0,0,2.25-.43,4.585,4.585,0,0,0,1.64-1.067,4.489,4.489,0,0,0,1.06-1.638,6.633,6.633,0,0,0,.43-2.245c0.05-.987.06-1.3,0.06-3.814s-0.01-2.827-.06-3.814a6.635,6.635,0,0,0-.43-2.245,4.485,4.485,0,0,0-1.06-1.638,4.57,4.57,0,0,0-1.64-1.067,6.782,6.782,0,0,0-2.25-.43C1249.08,15.01,1248.76,15,1246.25,15Zm0,1.667c2.47,0,2.76.01,3.74,0.054a5.176,5.176,0,0,1,1.72.318,2.837,2.837,0,0,1,1.06.692,2.938,2.938,0,0,1,.69,1.064,5,5,0,0,1,.32,1.718c0.04,0.975.05,1.268,0.05,3.738s-0.01,2.762-.05,3.738a4.99,4.99,0,0,1-.32,1.717,2.936,2.936,0,0,1-.69,1.064,2.842,2.842,0,0,1-1.06.692,5.168,5.168,0,0,1-1.72.318c-0.98.045-1.27,0.054-3.74,0.054s-2.76-.009-3.74-0.054a5.168,5.168,0,0,1-1.72-.318,2.842,2.842,0,0,1-1.06-.692,2.936,2.936,0,0,1-.69-1.064,4.99,4.99,0,0,1-.32-1.717c-0.04-.976-0.05-1.268-0.05-3.738s0.01-2.762.05-3.738a5,5,0,0,1,.32-1.718,2.938,2.938,0,0,1,.69-1.064,2.837,2.837,0,0,1,1.06-.692,5.176,5.176,0,0,1,1.72-.318C1243.49,16.676,1243.78,16.666,1246.25,16.666Zm0,2.834a4.75,4.75,0,1,0,4.75,4.75A4.752,4.752,0,0,0,1246.25,19.5Zm0,7.833a3.083,3.083,0,1,1,3.08-3.083A3.082,3.082,0,0,1,1246.25,27.333Zm6.05-8.021a1.11,1.11,0,1,1-1.11-1.11A1.112,1.112,0,0,1,1252.3,19.312Z" transform="translate(-1237 -15)"></path>
 </svg>
 </a>
-      </div>
-  </div>
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_1">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		</div>
+	</div>
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_1">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
-  
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_3">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_3">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_4">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_4">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_5">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+	</div>
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_5">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-          
-  </div>
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_6">
-      <span class="fermer" ><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+			
+	</div>
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_6">
+		<span class="fermer" ><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
+		
+	</div>
+	
+	
 </div>
-      <div id="entete_haut">
-          <span id="btn_ouvre_menu" onclick="ouvre_menu_tactile()"><svg xmlns="http://www.w3.org/2000/svg" width="25.593" height="17" viewBox="0 0 25.593 17">
-<path fill="#fff" d="M647.19,1556.5h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Z" transform="translate(-647.188 -1556.5)"></path>
+		<div id="entete_haut">
+			<span id="btn_ouvre_menu" onclick="ouvre_menu_tactile()"><svg xmlns="http://www.w3.org/2000/svg" width="25.593" height="17" viewBox="0 0 25.593 17">
+  <path fill="#fff" d="M647.19,1556.5h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Z" transform="translate(-647.188 -1556.5)"></path>
 </svg>
 </span>
-          
-          <span class="filet_gauche"></span>
-          <span class="filet_droite"></span>
-      </div>
-      <div id="entete_contenu">
-          
-          <ul class="menu">
+			
+			<span class="filet_gauche"></span>
+			<span class="filet_droite"></span>
+		</div>
+		<div id="entete_contenu">
+			
+			<ul class="menu">
 
-  
+	
 <li class=" pere menu_1" style="border:0;"><a href="">HOME</a></li>
 
 <a id="logo">
-  <img src="logo-nova.png" width="140px" height="140px" style="margin-left: 17%;">
+	<img src="media/logo-nova.png" width="140px" height="140px" style="margin-left: 17%;">
 </a>
 <li class="nav-item dropdown" style="border:0;">
-  <a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    GEOTURISMO
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-    <a class="dropdown-item" href="intro.html" target="_blank">Introduction</a>
-    <a class="dropdown-item" href="hist.html" target="_blank">Historic</a>
+	<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  GEOTOURISM
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-bottom:0.01px;">
+	  <a class="dropdown-item" href="intro.html" target="_blank" >Introduction</a>
+	  <a class="dropdown-item" href="hist.html" target="_blank">Historic</a>
     <a class="dropdown-item" href="desc.html" target="_blank">Definition</a>
-    <a class="dropdown-item" href="geourb.html" target="_blank">Urban Geotourism</a>
-    <a class="dropdown-item" href="geocos.html" target="_blank">Coastal Geotourism</a>
-    <a class="dropdown-item" href="geobrasil.html" target="_blank">Geotourism in Brazil</a>
-  </div>
+	  <a class="dropdown-item" href="geourb.html" target="_blank">Urban Geotourism</a>
+	  <a class="dropdown-item" href="geocos.html" target="_blank">Coastal Geotourism</a>
+	  <a class="dropdown-item" href="geobrasil.html" target="_blank">Geoturismo in Brazil</a>
+	</div>
 </li>
-<li class=" pere  menu_3" style="border:0;padding-right: 2%;margin-left:30%;"><a href="404.html">EXPLORAR</a></li>
+<li class="nav-item dropdown" style="border:0;margin-right:1%;">
+  	<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  EXPLORE
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-bottom:0.01px;">
+    <a class="dropdown-item" href="criterios.html" target="_blank">Criteria</a>
+	  <a class="dropdown-item" href="locais.html" target="_blank">Places Of Interest</a>
+	  <a class="dropdown-item" href="" target="_blank">Files</a>
+    <div class="nav-item dropdown" style="border:0;margin-right:1%">
+	<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  Thematic Exploration
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-bottom:0.01px;">
+	  <a class="dropdown-item" href="intro.html" target="_blank">Cultural Heritage</a>
+	  <a class="dropdown-item" href="hist.html" target="_blank">Geodiversity</a>
+    <a class="dropdown-item" href="desc.html" target="_blank">Geopatrimony</a>
+	</div>
+	</div>
+	</div>
+</li>
 
-<li class=" menu_43" style="border:0;"><a href="404.html">OUR TERRITORY</a></li>
+<li class=" menu_43" style="border:0;margin-left:145px;"><a href="404.html">OUR TERRITORY</a></li>
+
+<li class=" menu_43" style="border:0;"><a href="404.html">PUBLISHING</a></li>
 
 <li class=" pere menu_5" style="border:0;"><a href="../"><img src="https://a-static.mlcdn.com.br/618x463/adesivo-bandeira-do-brasil-clickfik/clickfik/5939/716a5bdd1fe89b3c2968c964ec79aa50.jpg" width="55px" height="45px"></a>  
-
-
+  
 
 </ul>
-
-          
-          
-      </div>
+			
+		</div>
       
-      <ul id="image_home" class="preload_images">
-  
-  <li class="sel">
-      <img src="01.jpg" alt="" class="principale" width="700" height="750">
-      <div class="info_texte">
-          <h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
-      </div>
-  </li>
-  
-  <li class="">
-      <img src="02.JPG" alt="" class="principale" width="700" height="750">
-      <div class="info_texte">
-          <h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
-          
-      </div>
-  </li>
-  
-  <li class="">
-      <img src="03.jpg" alt="" class="principale" width="700" height="750">
-      <div class="info_texte">
-          <h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
-          
-      </div>
-  </li>
-  
+<ul id="image_home" class="preload_images">
+	
+	<li class="sel">
+		<img src="media/01.jpg" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
+		</div>
+	</li>
+	
+	<li class="">
+		<img src="media/02.JPG" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
+			
+		</div>
+	</li>
+	
+	<li class="">
+		<img src="media/03.jpg" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
+			
+		</div>
+	</li>
+	
 
-  
+	
 </ul>
 <ul id="image_home_puce">
   
@@ -303,13 +350,13 @@ recherche_load();
   <main style="margin:2% 12% 2% 12%;">
     <h1>Definition</h1>
     
-    <p style="text-align:justify; text-indent:4em;">Often, geotourism has been framed in ecotourism, due to its natural bias and its conservationist character (BRILHA, 2005; NEWSOME and DOWLING, 2006). Throughout history, several definitions have been proposed about ecotourism, which despite the differences, are unanimous in characterizing it as a segment of nature tourism [1], being an activity performed in natural areas, with the aim of admiring and enjoying landscape, in a sustainable way, sometimes including the study of the elements of fauna and flora (CEBALLOS-LASCURAIN, 1987; TULIK, 1993; PIRES, 2000; EAGLES, 2001, among others). The participation of the local community in this process is essential.</p>
+    <p style="text-align:justify; text-indent:4em;">Often, geotourism has been framed in ecotourism, due to its natural bias and its conservationist character (BRILHA, 2005; NEWSOME and DOWLING, 2006). Throughout history, several definitions have been proposed about ecotourism, which despite the differences, are unanimous in characterizing it as a segment of nature tourism [1], being an activity performed in natural areas, with the aim of admiring and enjoying the landscape, in a sustainable way, sometimes including the study of the elements of fauna and flora (CEBALLOS-LASCURAIN, 1987; TULIK, 1993; PIRES, 2000; EAGLES, 2001, among others). The participation of the local community in this process is essential.</p>
 
-    <p style="text-align:justify; text-indent:4em;">The Ministry of Tourism [2], in Brazil, considers some options for tourist activities in the country, such as cultural tourism, study and exchange tourism, sports tourism, fishing tourism, nautical tourism, adventure tourism, sun tourism and beach, business and event tourism, rural tourism, health tourism and ecotourism, without mentioning geotourism, which is considered to be inserted in ecotourism.</p>
+    <p style="text-align:justify; text-indent:4em;">The Ministry of Tourism [2], in Brazil, considers some options for tourist activities in the country, such as cultural tourism, study and exchange tourism, sports tourism, fishing tourism, nautical tourism, adventure tourism, sun tourism and beach, business and event tourism, rural tourism, health tourism and ecotourism, without making reference to geotourism, which is considered to be inserted in ecotourism.</p>
         
         <p style="text-align:justify; text-indent:4em;">Geotourism, on the other hand, has some advantages over ecotourism, such as not being restricted to seasonality, which can develop throughout the year; not be dependent on fauna habits; as it is a niche tourism, there is no overcrowding; it serves as a complement to traditionally tourist areas and promotes handicrafts linked to the elements of geodiversity (BRILHA, 2005). It is added that, in an urban environment, geotourism ends up intertwining cultural heritage with elements of geodiversity or even geopatrimony, in the form of rocks, relief, water resources and soil, which enriches the tourist experience.</p>
         
-        <p style="text-align:justify; text-indent:4em;">The first signs of tourist motivations towards the knowledge of geopatrimony date back to 1860, especially geology and geomorphology (McFARLANE, 2005). According to the author, Professor Willian Turl offered his geoscientific knowledge to tourists interested in deepening their understanding of petrology in European mountainous areas.</p>
+        <p style="text-align:justify; text-indent:4em;">The first signs of tourist motivations towards the knowledge of geopatrimony date back to 1860, especially geology and geomorphology (McFARLANE, 2005). According to the author, Professor Willian Turl offered his geoscientific knowledge to tourists who were interested in deepening their understanding of petrology in European mountainous areas.</p>
         
         <p style="text-align:justify; text-indent:4em;">The introduction of the definition of 'geotourism' ended up guiding two major positions on the subject in the academic community: a restricted view, such as that of Hose (1995), where most of the time the prefix 'geo' was synonymous with geological or, in the maximum, geomorphological, restricting this activity to natural / rural areas, such as geoparks and excluding urban areas. Followers of this trend are Newsome and Dowling (2006), Ruchkys (2007), Moreira (2008), among others. And, based on the concept proposed by National Geographic (2001 apud Stueve et al., 2002), a broad, holistic and more comprehensive view of the landscape was launched, focused not only on the natural landscape but also on the culture of the areas in which it develops , expanding the assets of the destination. The definitions of Buckley (2003), Newsome and Dowling (2010), the Declaration of Arouca (2011), among others, stand out. This broader view of the activity will be followed in this thesis, whose definition will be proposed below. The two different positions are summarized in table 4.1, with their main characteristics.</p>
         <div class="table-responsive">
@@ -359,7 +406,7 @@ recherche_load();
           <tr style="border:2px solid black">
             <td style="border:2px solid black"></td>
             <td style="border:2px solid black">Provision of interpretation facilities and services for geosites and geomorphosites and their comprehensive topography, together with their associated in situ and ex situ artifacts, for the purpose of conservation, through appreciation, learning and research by current generations, for future generations</td>
-            <td style="border:2px solid black">It adds what it calls 3Gs (geohistory, geointerpretation and geoconservation) to the context. Geohistory consists in promoting sites with geotouristic potential through discoveries, events, characters and institutions of a geoscientific nature that are essential for research in geotourism. Geointerpretation consists in the development of tools that are possible to transcode the landscape into a language conducive to the understanding of visitors to these sites with a beneficial purpose, geoconservation, which, in turn, consists of the preservation of the abiotic environment.</td>
+            <td style="border:2px solid black">It adds what it calls 3Gs (geohistory, geointerpretation and geoconservation) to the context. Geohistory consists of promoting sites with geotouristic potential through discoveries, events, characters and institutions of a geoscientific nature that are essential for research in geotourism. Geointerpretation consists in the development of tools that are possible to transcode the landscape into a language conducive to the understanding of visitors to these sites with a beneficial purpose, geoconservation, which, in turn, consists of the preservation of the abiotic environment.</td>
             <td style="border:2px solid black">Hose (2012)</td>
           </tr>
         </table>
@@ -393,20 +440,20 @@ recherche_load();
           </tr>
           <tr style="border:2px solid black">
             <td style="border:2px solid black"></td>
-            <td style="border:2px solid black">Form of tourism in natural areas that specifically focuses on geology and landscape. It promotes tourism in geosites and the conservation of geodiversity and an understanding of Earth Sciences through appreciation and learning. It is achieved through independent visits to geological features, use of geotracks and points of view, guided tours, geoactivities and sponsorship of geosite visitor centers</td>
-            <td style="border:2px solid black">It has a link with ecotourism, adventure tourism and cultural tourism, not being synonymous with any of these. By combining geotourism with cultural tourism, the urban aspect is inserted into geotourism, within the scope that societies use of rock materials, as well as the forms of relief occupied by it, which could be an analogy to cultural landscapes, proposed by UNESCO. </td>
+            <td style="border:2px solid black">Form of tourism in natural areas that specifically focuses on geology and landscape. It promotes tourism in geosites and the conservation of geodiversity and an understanding of Earth Sciences through appreciation and learning. It is reached through independent visits to geological features, use of geotracks and points of view, guided tours, geoactivities and sponsorship of geosite visitor centers</td>
+            <td style="border:2px solid black">It has a link with ecotourism, adventure tourism and cultural tourism, not being synonymous with any of these. By combining geotourism with cultural tourism, the urban aspect is inserted into geotourism, within the scope that societies use of rock materials, as well as the forms of relief occupied by it, which could be an analogy to cultural landscapes, proposed by UNESCO.</td>
             <td style="border:2px solid black">Newsome and Dowling (2010); Dowling (2011)</td>
           </tr>
           <tr style="border:2px solid black">
             <td style="border:2px solid black"></td>
-            <td style="border:2px solid black">Tourism that sustains and enhances the identity of a territory, considering its geology, environment, culture, aesthetic values, heritage and the well-being of its residents. Geological tourism assumes itself as one of the diverse components of geotourism, which is a fundamental tool for the conservation, dissemination and enhancement of the Earth's past and life, including its dynamics and mechanisms.</td>
-            <td style="border:2px solid black">In 2011, in the Portuguese city of Arouca, during the 1st International Geotourism Congress, the Arouca Declaration was published, whose guiding principles were those established by the Center for Sustainable Destinations-National Geographic Society and with the support of UNESCO. </td>
+            <td style="border:2px solid black">Tourism that sustains and enhances the identity of a territory, considering its geology, environment, culture, aesthetic values, heritage and the well-being of its residents. Geological tourism assumes itself as one of the several components of geotourism, which is a fundamental tool for the conservation, dissemination and enhancement of the Earth's past and life, including its dynamics and mechanisms.</td>
+            <td style="border:2px solid black">In 2011, in the Portuguese city of Arouca, during the 1st International Geotourism Congress, the Arouca Declaration was published, whose guiding principles were those established by the Center for Sustainable Destinations-National Geographic Society and with the support of UNESCO.</td>
             <td style="border:2px solid black">Declaration of Arouca (2011)</td>
           </tr>
           <tr style="border:2px solid black">
             <td style="border:2px solid black"></td>
-            <td style="border:2px solid black">Addition of geopatrimony to tourism, focused on places of geotouristic interest, benefiting local communities and giving visitors a new tourist experience.</td>
-            <td style="border:2px solid black">It is located at the interface of nature tourism and cultural tourism, being able to develop both in natural / rural and urban environments. It discloses and promotes geodiversity and its geopatrimony, in a more restricted sense or its relationship with civilizations and cultures, in a broader sense.</td>
+            <td style="border:2px solid black">Addition of geopatrimônio to the tourist activity, focused on places of geotouristic interest, benefiting the local communities and giving a new tourist experience to the visitors.</td>
+            <td style="border:2px solid black"> It is located at the interface of nature tourism and cultural tourism, being able to develop both in natural / rural and urban environments. It discloses and promotes geodiversity and its geopatrimony, in a more restricted sense, or its relationship with civilizations and cultures, in a broader sense.</td>
             <td style="border:2px solid black">THIS WORK</td>
           </tr>
 
@@ -415,18 +462,18 @@ recherche_load();
         
         <p style="text-align:justify; text-indent:4em;">According to the definitions presented above, most of the geotouristic activity occurs in geoparks, that is, with great interaction with the biotic environment. However, as seen so far, we can highlight the geotouristic potential of other spaces, such as coastal regions and urban areas, which can also serve as a stage for the performance of geotourism. Whether in urban, rural or other areas, the displacement of people through pre-defined trails or routes becomes an important means of contact and appreciation with the surrounding physical environment.</p>
         
-        <p style="text-align:justify; text-indent:4em;">The existence of Interpretative Trails (MOREIRA, 2011) assigns a new function to the routes, now from a geotouristic point of view, by enriching the experience of tourists, who come to know the natural heritage, especially the abiotic, and the cultural heritage in another light , in addition to promoting environmental awareness. These routes can be personalized (guided trails) or non-personalized (self-guided, with the help of folders, maps, among other means). In turn, promoting the understanding of landscape reading, the interpretation of how the city ​​on the physical substrate, the occupation of urban space and the challenges imposed by the physical environment for this, allow to understand urban geotourism in a broad sense. It should be noted that urban geotourism becomes a complement to routes already consolidated, usually in the Historical Centers of the main tourist cities, through the addition of this new information.</p>
+        <p style="text-align:justify; text-indent:4em;">The existence of Interpretative Trails (MOREIRA, 2011) assigns a new function to the routes, now from a geotouristic point of view, by enriching the experience of tourists, who come to know the natural heritage, especially the abiotic, and cultural heritage in another light , in addition to promoting environmental awareness. These routes can be personalized (guided trails) or non-personalized (self-guided, with the help of folders, maps, among other means). In turn, promoting the understanding of landscape reading, the interpretation of how the establishment of city ​​on the physical substrate, the occupation of urban space and the challenges imposed by the physical environment for this, allow to understand urban geotourism in a broad sense. It should be noted that urban geotourism becomes a complement to routes already consolidated, usually in the Historical Centers of the main tourist cities, through the addition of this new information.</p>
 
-        <p style="text-align:justify; text-indent:4em;">After all, rocks have minerals, textures and structures that make it possible to tell the history of the planet, in addition to being sources of information about the technological, social and economic past of people who used these geo-resources in the construction of these buildings (STERN et al., 2006) . Landforms, water and pedological resources are other elements of geodiversity that are conditions for urban settlement and expansion and, as such, can also be used in the context of urban geotourism.</p>
+        <p style="text-align:justify; text-indent:4em;">After all, rocks have minerals, textures and structures that make it possible to tell the history of the planet, in addition to being sources of information about the technological, social and economic past of people who used these geo-resources in the construction of these constructions (STERN et al., 2006) . Landforms, water and pedological resources are other elements of geodiversity that are conditions for urban settlement and expansion and, as such, can also be used in the context of urban geotourism.</p>
         
-        <p style="text-align:justify; text-indent:4em;">Hose (2000) considers the Rochdale Cemetery, Lancashire County, England, as the precursor to urban geotourism, in 1881, whose visitors had access to 30 small rock pillars that told the story of the creation of the Earth from the perspective of Geology. However, in modern scientific circles, discussions about urban geotourism are quite recent, especially since the mid-2000s, and in an extremely inferior dimension when compared to non-urban areas.</p>
+        <p style="text-align:justify; text-indent:4em;">Hose (2000) considers Rochdale Cemetery, Lancashire County, England, as the precursor to urban geotourism, in 1881, whose visitors had access to 30 small rock pillars that told the story of the creation of the Earth from the perspective of Geology. However, in modern scientific circles, discussions about urban geotourism are quite recent, especially since the mid-2000s, and in an extremely inferior dimension when compared to non-urban areas.</p>
         
         <p style="text-align:justify; text-indent:4em;">In Europe, urban routes that include the geological and geomorphological aspects, mainly, are very common in the scientific environment, such as London (ROBINSON, 1982), Zaragoza (CARRILLO and GISBERT, 1993), the dissemination of ex-paleontological sites in Lisbon (SILVA and CACHÃO, 1998; SILVA, 2009), Segovia (DÍEZ-HERRERO et al., 2011), Lisbon (RODRIGUES et al. 2010, 2011a; CAETANO et al., 2011), among others. The disclosure of these routes to tourists would insert the activity of urban geotourism in these cities.</p>
         
         <p style="text-align:justify; text-indent:4em;">In this thesis, Geotourism will be defined as an activity that is located at the interface of nature tourism, in the case of ecotourism, and cultural tourism, always with knowledge as the main motivation. It can develop both in environments where natural aspects prevail and in urban environments, disseminating and promoting geodiversity and its geopatrimony, in a more restricted sense or its relationship with civilizations and cultures, in a broader sense, in a sustainable way. It consists of adding geopatrimony to tourist activity, focused on places of geotouristic interest, benefiting local communities and giving visitors a new tourist experience.</p>
         
-        <p style="text-align:justify; text-indent:4em;">Thus, geotourism, whether urban or rural / natural, involves three major elements that intertwine: geopatrimony, territory and tourism, and geopatrimony, the object in question, is inserted in a certain territory, in which promotion and the development of tourism activity is the result of the joint action of managers (public authorities), tourist agencies, tourists, academics and the local community, each of whom has a fundamental role in this activity (figure 4.1).</p><br>
-        <a href="esquema2final.jpg" ><img src="esquema2final.jpg" alt="" style="margin-left: 260px;" width="650px" height="500px"></a><br>
+        <p style="text-align:justify; text-indent:4em;">Thus, geotourism, be it urban or rural / natural, involves three major elements that intertwine: geopatrimony, territory and tourism, and geopatrimony, the object in question, is inserted in a certain territory, in which promotion and the development of tourism activity is the result of the joint action of managers (public authorities), tourist agencies, tourists, academics and the local community, each of whom has a fundamental role in this activity (figure 4.1).</p><br>
+        <a href="media/esquema2final.jpg" ><img src="media/esquema2final.jpg" class="img-fluid"></a><br>
         <p style="text-align:center;">Fig 4.1</p>
         
         <p style="text-align:justify; text-indent:4em;">The touristization process consists of the implantation or development of the tourist activity in tourist spaces or with potential for tourism (CRUZ, 2000). In this way, geotourism has the capacity to touristify geopatrimony, through the territorialization of this activity in specific places, as long as this geopatrimony shows undeniable value for tourism use. The problem is that, often, geodiversity and its geopatrimony are not properly valued, even when loaded with a potential that makes them unique.</p>
@@ -438,7 +485,7 @@ recherche_load();
 <hr>
         [1] According to Eagles (2001), 'nature tourism' refers to outdoor and alternative tourism, which can be subdivided into ecotourism, adventure tourism, wildlife and camping.
         <br>
-        [2] INSTITUTO BRASILEIRO DE TURISMO-EMBRATUR. Available in <a href="https://www.embratur.gov.br">www.embratur.gov.br</a>. Accessed on Aug 16, 2015.</p>
+        [2] BRAZILIAN INSTITUTE OF TOURISM-EMBRATUR. Available in <a href="https://www.embratur.gov.br">www.embratur.gov.br</a>. Accessed on Aug 16, 2015.</p>
 
   </main>
 
