@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta name="description" content="">
+	<title>Geotourism in Brazil</title>
+	<meta name="description" content=" ">
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 	
-	<link href="init.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/init.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="geo.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/geo.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="cmx.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/cmx.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="nexslide.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/nexslide.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="fil_ariane.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/fil_ariane.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="lang.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/lang.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="home.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/home.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="cmx_contenu.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/cmx_contenu.css" rel="stylesheet" type="text/css" media="all">
 	
-	<link href="cmx_editeur.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/cmx_editeur.css" rel="stylesheet" type="text/css" media="all">
 	
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-	<link rel="stylesheet" media="screen and (max-width: 767px)" href="style320.css" type="text/css">
-	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="style768.css" type="text/css">
-	<link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="style1024.css" type="text/css">
-	<link rel="stylesheet" media="screen and (min-width: 1280px)" href="style1280.css" type="text/css">
-	<link href="print.css" rel="stylesheet" type="text/css" media="print">
+	
+	<link rel="stylesheet" media="screen and (max-width: 767px)" href="css/style320.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css/style768.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="css/style1024.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 1280px)" href="css/style1280.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
 
 
-	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="fct.js"></script>
+	<script async="" src="//www.google-analytics.com/analytics.js"></script>
+  
+  <script type="text/javascript" src="js/fct.js"></script>
 	
-	<script type="text/javascript" src="mailto.js"></script>
+	<script type="text/javascript" src="js/mailto.js"></script>
 	
-	<script type="text/javascript" src="class.js"></script>
+	<script type="text/javascript" src="js/class.js"></script>
 	
-	<script type="text/javascript" src="preload_images.js"></script>
+	<script type="text/javascript" src="js/preload_images.js"></script>
 	
-	<script type="text/javascript" src="menu.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
 	
-	<script type="text/javascript" src="nexslide.js"></script>
+	<script type="text/javascript" src="js/nexslide.js"></script>
 	
-	<script type="text/javascript" src="opacity.js"></script>
+	<script type="text/javascript" src="js/opacity.js"></script>
 	
-	<script type="text/javascript" src="home.js"></script>
-    <title>Geoturism in Brazil</title>
-    <style>
-        .dropdown:hover>.dropdown-menu {
-     		display: block;
-		}
-        .menu-lista{
+	<script type="text/javascript" src="js/home.js"></script>
+
+	<style>
+    .lista-menu{
       display:none; 
     }
+    .dropdown-reduzid{
+      display:none;
+    }
+    .dropdown-new-reduzid{
+      display:none;
+    }
+    .dropdown:hover>.dropdown-menu {
+     		display: block;
+        background-color:grey;
+		    }
 
 
-    </style>
+	</style>
+
+	
 </head>
 <body class="home" onload="
 mel2_onload();
@@ -85,12 +97,12 @@ recherche_load();
   
 
   <div id="main" class="home page_">
-  <div id="menu_tactile">
-      <span id="btn_ferme_menu" onclick="ferme_menu_tactile();"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+	<div id="menu_tactile">
+		<span id="btn_ferme_menu" onclick="ferme_menu_tactile();"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      <a href="" class="logo"  style="margin-left:25%;"><img src="logo-nova.png"></a>
+		<a href="" class="logo"  style="margin-left:25%;"><img src="media/logo-nova.png"></a>
 
 
 <ul class="menu" >
@@ -111,184 +123,214 @@ recherche_load();
     </div>
 
 </li>
+<li class=" pere menu_3">
+ 
+    <a data-toggle="collapse" href="#dropdownMenuLink" role="button" aria-expanded="false" aria-controls="collapseExample">
+      EXPLORE
+    </a>
+  <div class="dropdown-reduzid" id="dropdownMenuLink">
+    <a class="dropdown-item" href="criterios.html" target="_blank">Criteria</a>
+    <a class="dropdown-item" href="locais.html">Places of Interest</a>
+    <a class="dropdown-item" href="#">Files</a>
+    <a data-toggle="collapse" href="#dropdownMenuLink-1" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Thematic Exploration
+    </a>
+  <div class="dropdown-new-reduzid" id="dropdownMenuLink-1">
+    <a class="dropdown-item" href="#">Cultural Heritage</a>
+    <a class="dropdown-item" href="#">Geodiversity</a>
+    <a class="dropdown-item" href="#">Geopatrimony</a>
 
+    
+  </div>
 
-<li class=" pere avant_logo menu_3"><a href="404.html">EXPLORE</a></li>
-
+  </div>
+</li>
 
 <li class=" pere menu_4"><a href="404.html">OUR TERRITORY</a></li>
 
+<li class=" pere menu_5"><a href="404.html">PUBLISHING</a></li>
+
 
 <li class=" pere menu_5" style="border:0;"><a href="../"><img src="https://a-static.mlcdn.com.br/618x463/adesivo-bandeira-do-brasil-clickfik/clickfik/5939/716a5bdd1fe89b3c2968c964ec79aa50.jpg" width="55px" height="45px"></a>  
 
+
 </ul>
-
-      
-      
-      
-
-
-
-  </div>
-  <div id="entete">
-      <div id="bloc_moteur_recherche">
-  <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.938" height="18.937" viewBox="0 0 18.938 18.937">
-<path id="Forme_30" data-name="Forme 30" class="cls-1" d="M990.19,415.518l8.6-8.627a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627-8.607-8.627a0.5,0.5,0,1,0-.7.705l8.605,8.627-8.605,8.627a0.5,0.5,0,0,0,.7.706l8.606-8.627,8.606,8.627a0.5,0.5,0,1,0,.705-0.706l-8.606-8.627h0Z" transform="translate(-980.031 -406.063)"></path>
+	</div>
+	<div id="entete">
+		<div id="bloc_moteur_recherche">
+	<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.938" height="18.937" viewBox="0 0 18.938 18.937">
+  <path id="Forme_30" data-name="Forme 30" class="cls-1" d="M990.19,415.518l8.6-8.627a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627-8.607-8.627a0.5,0.5,0,1,0-.7.705l8.605,8.627-8.605,8.627a0.5,0.5,0,0,0,.7.706l8.606-8.627,8.606,8.627a0.5,0.5,0,1,0,.705-0.706l-8.606-8.627h0Z" transform="translate(-980.031 -406.063)"></path>
 </svg>
 </span>
-  
+	
 </div>
-      <div id="bloc_sous_menu">
-  
-  
-  <div id="entete_sous_menu">
-      <span id="btn_ferme_menu"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		<div id="bloc_sous_menu">
+	
+	
+	<div id="entete_sous_menu">
+		<span id="btn_ferme_menu"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-  
-      <div id="bloc_reseaux_tactile">
-          <a href="https://www.facebook.com/GeoparkBeaujolais/" target="_blank" id="lien_facebook_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="19.18" height="19.188" viewBox="0 0 19.18 19.188">
-<path fill="#fff" d="M1216.66,33.6h-9.2a1.057,1.057,0,0,1-1.06-1.06V15.46a1.057,1.057,0,0,1,1.06-1.06h17.08a1.057,1.057,0,0,1,1.06,1.06V32.54a1.057,1.057,0,0,1-1.06,1.06h-4.89V26.164h2.49l0.38-2.9h-2.87v-1.85a1.2,1.2,0,0,1,1.43-1.41h1.54V17.414a20.63,20.63,0,0,0-2.24-.114,3.487,3.487,0,0,0-3.72,3.83v2.137h-2.51v2.9h2.51V33.6h0Z" transform="translate(-1206.41 -14.406)"></path>
+	
+		<div id="bloc_reseaux_tactile">
+			<a href="https://www.facebook.com/GeoparkBeaujolais/" target="_blank" id="lien_facebook_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="19.18" height="19.188" viewBox="0 0 19.18 19.188">
+  <path fill="#fff" d="M1216.66,33.6h-9.2a1.057,1.057,0,0,1-1.06-1.06V15.46a1.057,1.057,0,0,1,1.06-1.06h17.08a1.057,1.057,0,0,1,1.06,1.06V32.54a1.057,1.057,0,0,1-1.06,1.06h-4.89V26.164h2.49l0.38-2.9h-2.87v-1.85a1.2,1.2,0,0,1,1.43-1.41h1.54V17.414a20.63,20.63,0,0,0-2.24-.114,3.487,3.487,0,0,0-3.72,3.83v2.137h-2.51v2.9h2.51V33.6h0Z" transform="translate(-1206.41 -14.406)"></path>
 </svg>
 </a>
-          <a href="https://www.instagram.com/geoparkbeaujolais/" target="_blank" id="lien_instagram_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 18.5 18.5">
-<path fill="#fff" d="M1246.25,15c-2.51,0-2.83.011-3.81,0.056a6.782,6.782,0,0,0-2.25.43,4.57,4.57,0,0,0-1.64,1.067,4.485,4.485,0,0,0-1.06,1.638,6.635,6.635,0,0,0-.43,2.246c-0.05.986-.06,1.3-0.06,3.814s0.01,2.827.06,3.814a6.633,6.633,0,0,0,.43,2.245,4.489,4.489,0,0,0,1.06,1.638,4.585,4.585,0,0,0,1.64,1.067,6.809,6.809,0,0,0,2.25.43c0.98,0.045,1.3.056,3.81,0.056s2.83-.011,3.81-0.056a6.809,6.809,0,0,0,2.25-.43,4.585,4.585,0,0,0,1.64-1.067,4.489,4.489,0,0,0,1.06-1.638,6.633,6.633,0,0,0,.43-2.245c0.05-.987.06-1.3,0.06-3.814s-0.01-2.827-.06-3.814a6.635,6.635,0,0,0-.43-2.245,4.485,4.485,0,0,0-1.06-1.638,4.57,4.57,0,0,0-1.64-1.067,6.782,6.782,0,0,0-2.25-.43C1249.08,15.01,1248.76,15,1246.25,15Zm0,1.667c2.47,0,2.76.01,3.74,0.054a5.176,5.176,0,0,1,1.72.318,2.837,2.837,0,0,1,1.06.692,2.938,2.938,0,0,1,.69,1.064,5,5,0,0,1,.32,1.718c0.04,0.975.05,1.268,0.05,3.738s-0.01,2.762-.05,3.738a4.99,4.99,0,0,1-.32,1.717,2.936,2.936,0,0,1-.69,1.064,2.842,2.842,0,0,1-1.06.692,5.168,5.168,0,0,1-1.72.318c-0.98.045-1.27,0.054-3.74,0.054s-2.76-.009-3.74-0.054a5.168,5.168,0,0,1-1.72-.318,2.842,2.842,0,0,1-1.06-.692,2.936,2.936,0,0,1-.69-1.064,4.99,4.99,0,0,1-.32-1.717c-0.04-.976-0.05-1.268-0.05-3.738s0.01-2.762.05-3.738a5,5,0,0,1,.32-1.718,2.938,2.938,0,0,1,.69-1.064,2.837,2.837,0,0,1,1.06-.692,5.176,5.176,0,0,1,1.72-.318C1243.49,16.676,1243.78,16.666,1246.25,16.666Zm0,2.834a4.75,4.75,0,1,0,4.75,4.75A4.752,4.752,0,0,0,1246.25,19.5Zm0,7.833a3.083,3.083,0,1,1,3.08-3.083A3.082,3.082,0,0,1,1246.25,27.333Zm6.05-8.021a1.11,1.11,0,1,1-1.11-1.11A1.112,1.112,0,0,1,1252.3,19.312Z" transform="translate(-1237 -15)"></path>
+			<a href="https://www.instagram.com/geoparkbeaujolais/" target="_blank" id="lien_instagram_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 18.5 18.5">
+  <path fill="#fff" d="M1246.25,15c-2.51,0-2.83.011-3.81,0.056a6.782,6.782,0,0,0-2.25.43,4.57,4.57,0,0,0-1.64,1.067,4.485,4.485,0,0,0-1.06,1.638,6.635,6.635,0,0,0-.43,2.246c-0.05.986-.06,1.3-0.06,3.814s0.01,2.827.06,3.814a6.633,6.633,0,0,0,.43,2.245,4.489,4.489,0,0,0,1.06,1.638,4.585,4.585,0,0,0,1.64,1.067,6.809,6.809,0,0,0,2.25.43c0.98,0.045,1.3.056,3.81,0.056s2.83-.011,3.81-0.056a6.809,6.809,0,0,0,2.25-.43,4.585,4.585,0,0,0,1.64-1.067,4.489,4.489,0,0,0,1.06-1.638,6.633,6.633,0,0,0,.43-2.245c0.05-.987.06-1.3,0.06-3.814s-0.01-2.827-.06-3.814a6.635,6.635,0,0,0-.43-2.245,4.485,4.485,0,0,0-1.06-1.638,4.57,4.57,0,0,0-1.64-1.067,6.782,6.782,0,0,0-2.25-.43C1249.08,15.01,1248.76,15,1246.25,15Zm0,1.667c2.47,0,2.76.01,3.74,0.054a5.176,5.176,0,0,1,1.72.318,2.837,2.837,0,0,1,1.06.692,2.938,2.938,0,0,1,.69,1.064,5,5,0,0,1,.32,1.718c0.04,0.975.05,1.268,0.05,3.738s-0.01,2.762-.05,3.738a4.99,4.99,0,0,1-.32,1.717,2.936,2.936,0,0,1-.69,1.064,2.842,2.842,0,0,1-1.06.692,5.168,5.168,0,0,1-1.72.318c-0.98.045-1.27,0.054-3.74,0.054s-2.76-.009-3.74-0.054a5.168,5.168,0,0,1-1.72-.318,2.842,2.842,0,0,1-1.06-.692,2.936,2.936,0,0,1-.69-1.064,4.99,4.99,0,0,1-.32-1.717c-0.04-.976-0.05-1.268-0.05-3.738s0.01-2.762.05-3.738a5,5,0,0,1,.32-1.718,2.938,2.938,0,0,1,.69-1.064,2.837,2.837,0,0,1,1.06-.692,5.176,5.176,0,0,1,1.72-.318C1243.49,16.676,1243.78,16.666,1246.25,16.666Zm0,2.834a4.75,4.75,0,1,0,4.75,4.75A4.752,4.752,0,0,0,1246.25,19.5Zm0,7.833a3.083,3.083,0,1,1,3.08-3.083A3.082,3.082,0,0,1,1246.25,27.333Zm6.05-8.021a1.11,1.11,0,1,1-1.11-1.11A1.112,1.112,0,0,1,1252.3,19.312Z" transform="translate(-1237 -15)"></path>
 </svg>
 </a>
-      </div>
-  </div>
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_1">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		</div>
+	</div>
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_1">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
-  
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_3">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_3">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_4">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_4">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_5">
-      <span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+	</div>
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_5">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-          
-  </div>
-  
-  
-  
-  <div class="entour_sous_menu_detail" id="entour_sous_menu_detail_6">
-      <span class="fermer" ><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
-<path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+		
+			
+	</div>
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_6">
+		<span class="fermer" ><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
 </svg>
 </span>
-      
-  </div>
-  
-  
+		
+	</div>
+	
+	
 </div>
-      <div id="entete_haut">
-          <span id="btn_ouvre_menu" onclick="ouvre_menu_tactile()"><svg xmlns="http://www.w3.org/2000/svg" width="25.593" height="17" viewBox="0 0 25.593 17">
-<path fill="#fff" d="M647.19,1556.5h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Z" transform="translate(-647.188 -1556.5)"></path>
+		<div id="entete_haut">
+			<span id="btn_ouvre_menu" onclick="ouvre_menu_tactile()"><svg xmlns="http://www.w3.org/2000/svg" width="25.593" height="17" viewBox="0 0 25.593 17">
+  <path fill="#fff" d="M647.19,1556.5h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Z" transform="translate(-647.188 -1556.5)"></path>
 </svg>
 </span>
-          
-          <span class="filet_gauche"></span>
-          <span class="filet_droite"></span>
-      </div>
-      <div id="entete_contenu">
-          
-          <ul class="menu">
+			
+			<span class="filet_gauche"></span>
+			<span class="filet_droite"></span>
+		</div>
+		<div id="entete_contenu">
+			
+			<ul class="menu">
 
-  
+	
 <li class=" pere menu_1" style="border:0;"><a href="">HOME</a></li>
 
 <a id="logo">
-  <img src="logo-nova.png" width="140px" height="140px" style="margin-left: 17%;">
+	<img src="media/logo-nova.png" width="140px" height="140px" style="margin-left: 17%;">
 </a>
 <li class="nav-item dropdown" style="border:0;">
-  <a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    GEOTOURISM
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-    <a class="dropdown-item" href="intro.html" target="_blank">Introduction</a>
-    <a class="dropdown-item" href="hist.html" target="_blank">Historic</a>
+	<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  GEOTOURISM
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-bottom:0.01px;">
+	  <a class="dropdown-item" href="intro.html" target="_blank" >Introduction</a>
+	  <a class="dropdown-item" href="hist.html" target="_blank">Historic</a>
     <a class="dropdown-item" href="desc.html" target="_blank">Definition</a>
-    <a class="dropdown-item" href="geourb.html" target="_blank">Urban Geotourism</a>
-    <a class="dropdown-item" href="geocos.html" target="_blank">Coastal Geotourism</a>
-    <a class="dropdown-item" href="geobrasil.html" target="_blank">Geotourism in Brazil</a>
-  </div>
+	  <a class="dropdown-item" href="geourb.html" target="_blank">Urban Geotourism</a>
+	  <a class="dropdown-item" href="geocos.html" target="_blank">Coastal Geotourism</a>
+	  <a class="dropdown-item" href="geobrasil.html" target="_blank">Geotourism in Brazil</a>
+	</div>
 </li>
-<li class=" pere  menu_3" style="border:0;padding-right: 2%;margin-left:30%;"><a href="404.html">EXPLORE</a></li>
+<li class="nav-item dropdown" style="border:0;margin-right:1%;">
+  	<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  EXPLORE
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-bottom:0.01px;">
+        <a class="dropdown-item" href="criterios.html" target="_blank">Criteria</a>
+	  <a class="dropdown-item" href="locais.html" target="_blank">Places of Interest</a>
+	  <a class="dropdown-item" href="" target="_blank">Files</a>
+    <div class="nav-item dropdown" style="border:0;margin-right:1%">
+	<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  Thematic Exploration
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-bottom:0.01px;">
+	  <a class="dropdown-item" href="intro.html" target="_blank">Cultural Heritage</a>
+	  <a class="dropdown-item" href="hist.html" target="_blank">Geodiversity</a>
+    <a class="dropdown-item" href="desc.html" target="_blank">Geopatrimony</a>
+	</div>
+	</div>
+	</div>
+</li>
 
-<li class=" menu_43" style="border:0;"><a href="404.html">OUR TERRITORY</a></li>
+<li class=" menu_43" style="border:0;margin-left:145px;"><a href="404.html">OUR TERRITORY</a></li>
+
+<li class=" menu_43" style="border:0;"><a href="404.html">PUBLISHING</a></li>
 
 <li class=" pere menu_5" style="border:0;"><a href="../"><img src="https://a-static.mlcdn.com.br/618x463/adesivo-bandeira-do-brasil-clickfik/clickfik/5939/716a5bdd1fe89b3c2968c964ec79aa50.jpg" width="55px" height="45px"></a>  
 
-
-
 </ul>
+			
+		</div>
+<ul id="image_home" class="preload_images">
+	
+	<li class="sel">
+		<img src="media/01.jpg" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotouristic Tour Of Historic Center of João Pessoa</h1>
+		</div>
+	</li>
+	
+	<li class="">
+		<img src="media/02.JPG" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotouristic Tour Of Historic Center of João Pessoa</h1>
+			
+		</div>
+	</li>
+	
+	<li class="">
+		<img src="media/03.jpg" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotouristic Tour Of Historic Center of João Pessoa</h1>
+			
+		</div>
+	</li>
+	
 
-          
-          
-      </div>
-      
-      <ul id="image_home" class="preload_images">
-  
-  <li class="sel">
-      <img src="01.jpg" alt="" class="principale" width="700" height="750">
-      <div class="info_texte">
-          <h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
-      </div>
-  </li>
-  
-  <li class="">
-      <img src="02.JPG" alt="" class="principale" width="700" height="750">
-      <div class="info_texte">
-          <h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
-          
-      </div>
-  </li>
-  
-  <li class="">
-      <img src="03.jpg" alt="" class="principale" width="700" height="750">
-      <div class="info_texte">
-          <h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
-          
-      </div>
-  </li>
-  
-
-  
+	
 </ul>
 <ul id="image_home_puce">
   
@@ -301,7 +343,7 @@ recherche_load();
 </div>
 
 <main style="margin:2% 12% 2% 12%;">
-    <h1>Geoturismo no Brasil</h1>
+    <h1>Geotourism in Brazil</h1>
     
     <p style="text-align:justify;text-indent: 4em;">In Brazil, the first scientific records on the theme of Geotourism date from the early 2000s. Brazil, due to its size, makes it difficult to uniformly inventory potential sites for geotouristic use, even though a large part of them have an intense tourist flow due to characteristics of geodiversity, especially its spectacular forms of relief, such as the famous sugar loaves, which occur in the city of Rio de Janeiro, the Iguaçu Falls (PR), the cliffs of the beautiful northeastern beaches and the canyons of the Aparados da Serra ( RS), among others.</p>
 
@@ -311,15 +353,15 @@ recherche_load();
       
       <p style="text-align:justify;text-indent: 4em;">The first state project aimed directly at the integration of Earth Sciences and tourism was called ‘Geological and paleontological sites of Paraná’, developed by MINEROPAR and previously mentioned. Similar to the ‘Geological Paths’, it consists of installing panels in strategic locations in the State, as well as promoting geotouristic itineraries, with the support of public and private agencies (PIEKARZ and LICCARDO, 2006).</p>
       
-      <p style="text-align:justify;text-indent: 4em;">In December 2004, with the creation of the group called 'Patrimônio-Geológico', on Yahoo Groups by geologist Marcos Nascimento and collaborators, the discussions on the theme, as well as the articulation of a movement to insert a thematic session at the next congress, in a systematized and mature way, it made geotourism take shape in the country. In this group, publications and links about the 5G’s are available (NASCIMENTO et al., 2008), with, in November 2017, 393 participants from different nationalities.</p>
+      <p style="text-align:justify;text-indent: 4em;">In December 2004, with the creation of the group called 'Patrimônio-Geológico', on Yahoo Groups by geologist Marcos Nascimento and collaborators, the discussions on the theme, as well as the articulation of a movement to insert a thematic session at the next congress, in a systematized and mature way, it made geotourism take shape in the country. In this group, publications and links about the 5G’s are available (NASCIMENTO et al., 2008), with, in November 2017, 393 participants of different nationalities.</p>
       
-      <p style="text-align:justify;text-indent: 4em;">The introduction of the topic ‘geotourism’ in national scientific events has been around for 15 years. Dates 2004, at the XLI Brazilian Congress of Geology, in Araxá (MG), when the theme was first introduced in a perspective of 'Tourism' activity, despite being associated with 'Sustainable Development and Geology', therefore in a derisory way and without proper articulation. Another important scientific event for the dissemination of the theme of geotourism in Brazil was the Brazilian Symposium on Geological Heritage, introduced in 2011 and held every two years, as already mentioned in subchapter 2.2.2.</p>
+      <p style="text-align:justify;text-indent: 4em;">The introduction of the topic ‘geotourism’ in national scientific events has been around for 15 years. Dates 2004, at the XLI Brazilian Congress of Geology, in Araxá (MG), when the theme was first introduced in a perspective of 'Tourism' activity, although associated with 'Sustainable Development and Geology', therefore in a derisory way and without proper articulation. Another important scientific event for the dissemination of the theme of geotourism in Brazil was the Brazilian Symposium on Geological Heritage, introduced in 2011 and held every two years, as already mentioned in subchapter 2.2.2.</p>
       
-      <p style="text-align:justify;text-indent: 4em;">In February 2007, the website “# geoturismobrasil.com” was launched by the geologist and photographer from Paraná, Liccardo, serving as a tool for the dissemination of works, ideas and discussions on this and other topics, such as geodiversity, geopatrimony and geoconservation, in addition to providing the lay public with knowledge on the subject and allowing access to a collection of beautiful photographs that portray Brazilian geodiversity. The fact that it has an English version makes the site visited by scholars from around the world (NASCIMENTO et al., 2008).</p>
+      <p style="text-align:justify;text-indent: 4em;">In February 2007, the website “# geoturismobrasil.com” was launched by the geologist and photographer from Paraná, Antônio Liccardo, serving as a tool for the dissemination of works, ideas and discussions on this and other topics, such as geodiversity, geopatrimony and geoconservation, in addition to providing the lay public with knowledge on the subject and allowing access to a collection of beautiful photographs that portray Brazilian geodiversity. The fact that it has an English version makes the site visited by scholars from around the world (NASCIMENTO et al., 2008).</p>
       
-      <p style="text-align:justify;text-indent: 4em;">In the scientific area of ​​Geography, geotourism is still an incipient discussion. To give you an idea, only at the XVI Brazilian Symposium on Applied Physical Geography, held in Teresina (PI), in 2015, a thematic axis on the theme was introduced, ET09 - “Geoconservation, Geotourism, Geomorphological Heritage and Environmental Impacts”, where, of the 50 expanded abstracts published, only ten dealt specifically with geotourism (two in geoparks and eight in areas not associated with geoparks), which shows the little participation of geographers in this theme.</p>
+      <p style="text-align:justify;text-indent: 4em;">In the scientific area of ​​Geography, geotourism is still an incipient discussion. To give you an idea, only at the XVI Brazilian Symposium on Applied Physical Geography, held in Teresina (PI), in 2015, a thematic axis on the theme was introduced, ET09 - “Geoconservation, Geotourism, Geomorphological Heritage and Environmental Impacts”, where, of the 50 expanded summaries published, only ten dealt specifically with geotourism (two in geoparks and eight in areas not associated with geoparks), which shows the little participation of geographers in this theme.</p>
       
-      <p style="text-align:justify;text-indent: 4em;">As for the publication of monographs, masters and theses, the pioneering work was produced by Barreto, in 2007, about the proposal for a geotouristic itinerary in Chapada Diamantina, belonging to the “National Circuit of Estrada Real” (BARRETO, 2007 apud RUCHKYS et al. , 2017). The first doctoral thesis on the theme of geotourism was published in 2008, defended by the student at the Federal University of Santa Catarina (UFSC), Jasmine Moreira, with the title "Geological Heritage in Conservation Units: interpretive, educational and geotouristic units" (MOREIRA, 2008), awarded the 'CAPES Award for theses', in 2011. The same author published, in that year, the first exclusive book on the theme, entitled “Geotourism and environmental interpretation”, emphasizing the importance of geotouristic activity for geoconservation and as a tool for the dissemination of Geosciences from environmental education (MOREIRA, 2011).</p>
+      <p style="text-align:justify;text-indent: 4em;">As for the publication of monographs, masters and theses, the pioneering work was produced by Barreto, in 2007, about the proposal for a geotouristic tour in Chapada Diamantina, belonging to the “National Circuit of Estrada Real” (BARRETO, 2007 apud RUCHKYS et al. , 2017). The first doctoral thesis on the theme of geotourism was published in 2008, defended by the student of the Federal University of Santa Catarina (UFSC), Jasmine Moreira, with the title "Geological Heritage in Conservation Units: interpretive, educational and geotouristic units" (MOREIRA, 2008), awarded the 'CAPES Award for theses', in 2011. The same author published, in that year, the first exclusive book on the theme, entitled “Geotourism and environmental interpretation”, emphasizing the importance of geotouristic activity for geoconservation and as a tool for the dissemination of Geosciences from environmental education (MOREIRA, 2011).</p>
       
       <p style="text-align:justify;text-indent: 4em;">From these publications, several undergraduate works, master's dissertations and doctoral theses on the subject were defended, such as Carvalho (2010), Santos (2014), Pinto (2015), among others. Even so, when compared to the discussions about geodiversity, geopatrimony or geoconservation, this theme is still incipient in the country.</p>
       
@@ -331,7 +373,7 @@ recherche_load();
       
       <p style="text-align:justify;text-indent: 4em;">Since then, there are several proposals for the study of geodiversity in Brazilian urban environments, whether in the form of geological routes for the purpose of urban geotourism or for pure scientific knowledge, when studying details, such as stonework or lithological pathologies in buildings [3 ]. As examples, we have the city of Natal (DANTAS, 2001; CARVALHO, 2010); São Paulo (STERN et al., 2006; REYS et al., 2008; AUGUSTO and DEL LAMA, 2011; MACHADO and DEL LAMA, 2014; DEL LAMA et al., 2015); Belo Horizonte (FERNANDES et al., 2007); the historic municipalities of the Gold Cycle, in Minas Gerais (LICCARDO, 2007; PEREIRA et al., 2007c; COSTA, 2014); Porto Alegre (PHILLIPP and BENEDETTI, 2007; BENEDETTI et al., 2007; PHILLIPP et al., 2009); Salvador (SILVA, 2008; PINTO et al., 2012; PINTO, 2015); Metropolitan Region of Recife (RIECK and SOUZA, 2008); Curitiba (LICCARDO et al., 2008; LICCARDO, 2010); Pirenópolis (CONCEIÇÃO et al., 2009); Ouro Preto (MORAES et al., 2011; PAULA, 2013); Rio de Janeiro (MELLO et al., 2014); João Pessoa (PEREIRA and AMARAL, 2014; PEREIRA et al., 2015a; 2015b; 2016b; PEREIRA, 2017a), among others.</p>
       
-      <p style="text-align:justify;text-indent: 4em;">In the Southeast region of Brazil, for example, the floor of the Shopping Center Eldorado, in São Paulo, is covered with marble with stromatolites that date back over two billion years (LICCARDO et al., 2012), originating from the geological formations of the company itself. region, having been released to the population only in 2006, even though it has been known to academia since 1976 (SALLUN FILHO and FAIRCHILD, 2005; FAIRCHILD et al., 2006). It should be noted that this mall, in 2008, was visited by 1.5 million people a month, who travel over these ornamental rocks without recognizing their scientific importance. For comparison, the Iguaçu Falls, an important natural monument, considered a World Heritage Site by UNESCO, received 1.15 million inhabitants throughout 2008 (LICCARDO et al., 2012). This is a clear example of the potential that the urban environment has for geotourism.</p>
+      <p style="text-align:justify;text-indent: 4em;">In the Southeast region of Brazil, for example, the floor of the Shopping Center Eldorado, in São Paulo, is covered with marble with stromatolites that date back over two billion years (LICCARDO et al., 2012), originating from the geological formations of the company itself. region, having been released to the population only in 2006, even though it has been known to academia since 1976 (SALLUN FILHO and FAIRCHILD, 2005; FAIRCHILD et al., 2006). It should be noted that this mall, in 2008, was visited by 1.5 million people a month, who travel over these ornamental rocks without recognizing their scientific importance. For comparison, the Iguaçu Falls, an important natural monument, considered a World Heritage Site by UNESCO, received 1.15 million inhabitants in the whole of 2008 (LICCARDO et al., 2012). This is a clear example of the potential that the urban environment has for geotourism.</p>
       
       <p style="text-align:justify;text-indent: 4em;">Another geotouristic activity that can occur in urban or rural environments is geotourism in ex situ pieces, in museums, which can be installed in the vicinity of the visited geopatrimony or in urban centers. In any case, the role of the museum should be to draw a dialogue between the object and the visitor, as an educational, cultural and tourist location (MAGALHÃES-GOMES and AZEVEDO, 2003 apud NASCIMENTO et al., 2008). The way in which the collection will be presented to the visitor is crucial to enhance its educational and entertainment role.</p>
       
@@ -340,18 +382,17 @@ recherche_load();
       <p style="text-align:justify;text-indent: 4em;">Ruban (2015) emphasizes that Brazil is among the main research centers on geotourism in the world. Analyzing publications in magazines and newspapers, published between 2012 and 2014, the author places Brazil in 2nd place, with 59 publications, behind Italy, with 61 publications, followed by China (52) and Poland (38). These data prove that the Brazilian scientific community has adopted and supports the theme, which has openly grown and become dynamic in academic circles and outside them as well.</p>
       
       Thus, based on Ruban (2015), we propose four stages for the dissemination of the theme “geotourism” in Brazil, as shown in figure 4.2: <br>
-      <a href="fig4.2.jpg"><img src="fig4.2.jpg" alt="" style="margin-left: 240px;" width="750px" height="500px"></a>
+      <a href="media/fig4.2.jpg"><img src="media/fig4.2.jpg" alt="" class="img-fluid mx-auto d-block" ></a>
       <p style="text-align:center;">Fig 4.2</p><br>
-      i) until 2004, when the theme was still incipient and the number of publications was reduced, it resulted in practically nonexistent publications, being restricted to scripts involving urban geology, theory development, with basic ideas or the discussion about proposals for geoparks, where geotourism was a secondary activity; <br> ii) from the creation of the Yahoo Groups “Patrimônio-Geológico” and the XLI Brazilian Congress of Geology, in 2004, the dissemination of the theme, even if timid, spreads, showing the interest that researchers have for it; <br> iii) between 2007-2008, the theme was consolidated in the country, based on the proposal of the site # geoturismobrasil.com ”, added to the publication of the book 'Geodiversidade, Geoconservação e Geoturismo' (NASCIMENTO et al., 2008) and Moreira's doctoral thesis, in the same year; <br> iv) as of 2008, geotourism publications increase, as well as the studied objects and methods, with national and foreign publications. </p>
+      i) until 2004, when the theme was still incipient and the number of publications was reduced, it resulted in practically nonexistent publications, being restricted to scripts involving urban geology, theory development, with basic ideas or the discussion about proposals for geoparks, where geotourism was a secondary activity; <br> ii) from the creation of the Yahoo Groups “Patrimônio-Geológico” and the XLI Brazilian Congress of Geology, in 2004, the dissemination of the theme, even if timid, spreads, showing the interest that researchers have for it; <br> iii) between 2007-2008, the theme was consolidated in the country, based on the proposal of the website # geoturismobrasil.com ”, added to the publication of the book 'Geodiversidade, Geoconservação e Geoturismo' (NASCIMENTO et al., 2008) and Moreira's doctoral thesis, in the same year; <br> iv) from 2008, geotourism publications increase, as well as the studied objects and methods, with national and foreign publications.</p>
       
       <p style="text-align:justify;text-indent: 4em;">It is concluded that by inserting elements of the natural landscape, especially the abiotic heritage, as well as the cultural heritage to the tourist activity, as a result of a more demanding market, it ends up providing the rise of niche tourism, and geotourism fits in this context, as an integrated activity between Geosciences, culture and the history of the place where they are inserted.</p>
       
-      <hr>
-      [1] DEPARTAMENTO DE RECURSOS MINERAIS DO RIO DE JANEIRO-DRM / RJ. Geological Paths. Available at http://www.drm.rj.gov.br/index.php/downloads/section/13-placas-caminhos-geologicos. Accessed on November 9, 2017.<br>
+      <hr>[1] DEPARTMENT OF MINERAL RESOURCES IN RIO DE JANEIRO-DRM / RJ. Geological Paths. Available at http://www.drm.rj.gov.br/index.php/downloads/section/13-placas-caminhos-geologicos. Accessed on November 9, 2017.<br>
       
-      [2] UNIVERSIDADE DE SÃO PAULO-USP. Research Support Center. Geoheredites. Extracted from http://www.igc.usp.br/index.php?id=605. Accessed on August 22, 2015.<br>
+      [2] UNIVERSITY OF SÃO PAULO-USP. Research Support Center. Geoheredites. Extracted from http://www.igc.usp.br/index.php?id=605. Accessed on August 22, 2015.<br>
       
-     [3] In the case of the study and characterization of the rocks that make up churches, monasteries, etc., a new branch of urban geology called 'Ecclesiastical Geology' has recently emerged, the results of which can be inserted into urban geotouristic trails. For further discussion of this topic, Sutherland (2000), Potter (2005) and Caetano et al. (2006), among others. </p>
+      [3] In the case of the study and characterization of the rocks that make up churches, monasteries, etc., a new branch of urban geology called 'Ecclesiastical Geology' has recently emerged, the results of which can be inserted into urban geotouristic trails. For further discussion of this topic, Sutherland (2000), Potter (2005) and Caetano et al. (2006), among others. </p>
 
 
 
