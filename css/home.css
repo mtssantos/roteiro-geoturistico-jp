@@ -1,4 +1,7 @@
-/* UTF-8 Ã  jamais */
+.nav-link{
+	padding:0;
+}
+
 #image_home{
 	position:absolute;
 	top:0;
