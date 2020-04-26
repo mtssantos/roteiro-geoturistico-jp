@@ -1,6 +1,9 @@
 .nav-link{
 	padding:0;
 }
+p{
+	text-align:justify;
+}
 
 #image_home{
 	position:absolute;

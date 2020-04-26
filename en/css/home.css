@@ -9,6 +9,12 @@
 	background-color:#fff;
 	overflow:hidden;
 }
+.nav-link{
+	padding:0;
+}
+p{
+	text-align:justify;
+}
 #image_home li{
 	position:absolute;
 	top:0;
