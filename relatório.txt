@@ -284,11 +284,17 @@ media/irere.png
 
 
 
+#########################################
 
+07/05/2020
 
+Redimensionamento de imagens e alterações pedidas pelo professor a partir de erros dele. Adição de figuras com as descrições. Retirada do link Geoturismo Costeiro  - Motivo = Professor mandando Retirar, disse que estava fora do contexto do roteiro.
 
+Arquivos Modificados:
 
-
-
-
-
+*.html
+relatório.txt  
+BANCOb.jpg
+P1010167a.JPG
+cc.png
+falha.jpg
