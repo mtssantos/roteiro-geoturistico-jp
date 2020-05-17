@@ -1,6 +1,11 @@
 .nav-link{
 	padding:0;
 }
+.figure-caption{
+	font-size:15px;
+	color:black;
+
+}
 p{
 	text-align:justify;
 }
