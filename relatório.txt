@@ -298,3 +298,12 @@ BANCOb.jpg
 P1010167a.JPG
 cc.png
 falha.jpg
+
+
+########################################################
+
+17/05/2020
+
+Adição de classe no Bootstrap, onde colocado a classe do figure do Bootstrap: ver documentação no link: https://getbootstrap.com/docs/4.5/content/figures/, colocado estas classes nos locais de interesse.
+
+Arquivos modificados:
