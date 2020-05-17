@@ -307,3 +307,33 @@ falha.jpg
 Adição de classe no Bootstrap, onde colocado a classe do figure do Bootstrap: ver documentação no link: https://getbootstrap.com/docs/4.5/content/figures/, colocado estas classes nos locais de interesse.
 
 Arquivos modificados:
+
+ aflora-beberibe.html     
+ aflora-gramame.html      
+ areniza-barreira.html    
+ balaustrada.html         
+ cacimba.html             
+ casa-rosa.html           
+ centro-cultural.html     
+ dolina.html              
+ dom-ulrico.html          
+ dom-ulrico_mat.html      
+ dom-ulrico_nos.html      
+ domadauto.html           
+ domadauto_car.html       
+ domadauto_mac.html       
+ fonte-milagres.html      
+ fonte-santo-antonio.html 
+ fossil-trincheiras.html  
+ gruta.html               
+ misericordia.html        
+ mosteiro.html            
+ praca.html               
+ praca_dir.html           
+ praca_jp.html            
+ pracaindep.html          
+ pracaindep_bus.html      
+ pracapedra.html          
+ relatorio.txt 
+ rio-branco_casa.html     
+ rio-branco_era.html      
