@@ -337,3 +337,16 @@ Arquivos modificados:
  relatorio.txt 
  rio-branco_casa.html     
  rio-branco_era.html      
+
+
+
+###############################
+
+19/05/2020:
+
+Redimensionamento de imagens, alterações pedidas pelo professor em relação de texto.
+
+
+Arquivos modificados:
+
+media/*
