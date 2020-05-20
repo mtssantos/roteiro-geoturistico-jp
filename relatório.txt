@@ -340,7 +340,7 @@ Arquivos modificados:
 
 
 
-###############################
+############################################
 
 19/05/2020:
 
@@ -401,3 +401,48 @@ Arquivos modificados:
  media/estatua.JPG (97%)
  media/praca.jpg (98%)
  media/trincheiras.JPG (97%)
+
+
+
+Adição da div com a classe .text-center que vai conter dentro da figura (imagens).
+
+
+Arquivos Modificados:
+
+academia.html
+aflora-beberibe.html
+aflora-gramame.html
+areniza-barreira.html
+balaustrada.html
+bicamaria.html
+cacimba.html
+casa-rosa.html
+centro-cultural.html
+dolina.html
+dom-ulrico.html
+dom-ulrico_mat.html
+dom-ulrico_nos.html
+domadauto.html
+domadauto_car.html
+domadauto_mac.html
+falha-sanhaua.html
+fonte-milagres.html
+fonte-santo-antonio.html
+fonte.html
+fossil-trincheiras.html
+gruta.html
+misericordia.html
+mosteiro.html
+praca.html
+praca_dir.html
+praca_jp.html
+praca_jus.html
+praca_red.html
+pracaindep.html
+pracaindep_bus.html
+pracaindep_obe.html
+pracapedra.html
+"relatorio.txt"
+rio-branco_casa.html
+rio-branco_era.html
+
