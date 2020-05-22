@@ -445,3 +445,15 @@ pracapedra.html
 "relatorio.txt"
 rio-branco_casa.html
 rio-branco_era.html
+
+22/05/20
+
+Foram atualizadas e traduzidas na língua inglesa as seguintes páginas:
+
+academia.html;
+apresentacao.html;
+areniza-barreia.html;
+balaustrada.html;
+bicamaria.html;
+
+*Em breve mais comissões de novas páginas html atualizadas serão enviadas. Em questão de tempo atualizarei todas as páginas.
