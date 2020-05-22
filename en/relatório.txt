@@ -298,3 +298,15 @@ BANCOb.jpg
 P1010167a.JPG
 cc.png
 falha.jpg
+
+22/05/20
+
+Foram atualizadas e traduzidas na língua inglesa as seguintes páginas:
+
+academia.html;
+apresentacao.html;
+areniza-barreia.html;
+balaustrada.html;
+bicamaria.html;
+
+*Em breve mais comissões de novas páginas html atualizadas serão enviadas. Em questão de tempo atualizarei todas as páginas.
