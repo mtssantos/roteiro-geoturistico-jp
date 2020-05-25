@@ -110,6 +110,21 @@ css/geo.css
 
 ####################################
 
+22/05/20
+
+Foram atualizadas e traduzidas na língua inglesa as seguintes páginas:
+
+academia.html;
+apresentacao.html;
+areniza-barreia.html;
+balaustrada.html;
+bicamaria.html;
+
+*Em breve mais comissões de novas páginas html atualizadas serão enviadas. Em questão de tempo atualizarei todas as páginas.
+
+
+######################################
+
 23/04/2020:
 
 Ajuste de Menu e adicionando arquivos de conteúdo dos locais de interesse.
@@ -298,151 +313,3 @@ BANCOb.jpg
 P1010167a.JPG
 cc.png
 falha.jpg
-
-
-########################################################
-
-17/05/2020
-
-Adição de classe no Bootstrap, onde colocado a classe do figure do Bootstrap: ver documentação no link: https://getbootstrap.com/docs/4.5/content/figures/, colocado estas classes nos locais de interesse. Alterações pedidas pelo professor em relação de correções de texto.
-
-Arquivos modificados:
-
- aflora-beberibe.html     
- aflora-gramame.html      
- areniza-barreira.html    
- balaustrada.html         
- cacimba.html             
- casa-rosa.html           
- centro-cultural.html     
- dolina.html              
- dom-ulrico.html          
- dom-ulrico_mat.html      
- dom-ulrico_nos.html      
- domadauto.html           
- domadauto_car.html       
- domadauto_mac.html       
- fonte-milagres.html      
- fonte-santo-antonio.html 
- fossil-trincheiras.html  
- gruta.html               
- misericordia.html        
- mosteiro.html            
- praca.html               
- praca_dir.html           
- praca_jp.html            
- pracaindep.html          
- pracaindep_bus.html      
- pracapedra.html          
- relatorio.txt 
- rio-branco_casa.html     
- rio-branco_era.html      
-
-
-
-############################################
-
-19/05/2020:
-
-Redimensionamento de imagens, alterações pedidas pelo professor em relação de texto.
-
-
-Arquivos modificados:
-
- media/1-matriz.jpg (98%)
- media/1a.jpg (96%)
- media/1b.jpg (96%)
- media/20160310_085624b.jpg (96%)
- media/20160310_092508a.jpg (93%)
- media/20160310_092616b.jpg (96%)
- media/20160429_161817b.jpg (96%)
- media/20160429_161855a.jpg (95%)
- media/2a-gramame.jpg (96%)
- media/2b-gramame.jpg (97%)
- media/3a.jpg (97%)
- media/3b.jpg (97%)
- media/DSC01446a.JPG (96%)
- media/DSCF3365.JPG (97%)
- media/DSCF3372.JPG (96%)
- media/DSCN7794c.JPG (95%)
- media/DSCN7833.JPG (97%)
- media/DSCN7869.JPG (96%)
- media/DSCN7888.JPG (95%)
- media/DSCN7892a.JPG (96%)
- media/DSCN7898b.JPG (97%)
- media/IMG-20160204-WA0041.jpg (97%)
- media/IMG-20160328-WA0040.bjpg.jpg (97%)
- media/IMG_0094.jpg (96%)
- media/Imagem 088.jpg (97%)
- media/P1010069.JPG (98%)
- media/P1010083.JPG (97%)
- media/P1010093.JPG (97%)
- media/P1010104.JPG (95%)
- media/P1010118.JPG (97%)
- media/P1010119b.JPG (97%)
- media/P1010120c.JPG (97%)
- media/P1010149a.JPG (95%)
- media/P1010151b.JPG (96%)
- media/P1010162.JPG (97%)
- media/P1010170.JPG (96%)
- media/P1010314.JPG (97%)
- media/P1010320b.JPG (97%)
- media/P1010325a.JPG (98%)
- media/P1010326c.JPG (97%)
- media/P1010369.JPG (97%)
- media/P1010440.JPG (97%)
- media/P1010441.JPG (97%)
- media/academia_paraibana.jpg (95%)
- media/amonita.jpg (95%)
- "media/busto epit\303\241cio pessoa.jpg" (98%)
- media/cimpor2.JPG (97%)
- media/cimpor3b.JPG (97%)
- media/cimpora.JPG (97%)
- media/estatua.JPG (97%)
- media/praca.jpg (98%)
- media/trincheiras.JPG (97%)
-
-
-
-Adição da div com a classe .text-center que vai conter dentro da figura (imagens).
-
-
-Arquivos Modificados:
-
-academia.html
-aflora-beberibe.html
-aflora-gramame.html
-areniza-barreira.html
-balaustrada.html
-bicamaria.html
-cacimba.html
-casa-rosa.html
-centro-cultural.html
-dolina.html
-dom-ulrico.html
-dom-ulrico_mat.html
-dom-ulrico_nos.html
-domadauto.html
-domadauto_car.html
-domadauto_mac.html
-falha-sanhaua.html
-fonte-milagres.html
-fonte-santo-antonio.html
-fonte.html
-fossil-trincheiras.html
-gruta.html
-misericordia.html
-mosteiro.html
-praca.html
-praca_dir.html
-praca_jp.html
-praca_jus.html
-praca_red.html
-pracaindep.html
-pracaindep_bus.html
-pracaindep_obe.html
-pracapedra.html
-"relatorio.txt"
-rio-branco_casa.html
-rio-branco_era.html
-

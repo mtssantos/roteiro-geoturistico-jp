@@ -107,6 +107,20 @@ Arquivos Modificados:
 *.html
 css/geo.css
 
+####################################
+
+22/05/20
+
+Foram atualizadas e traduzidas na língua inglesa as seguintes páginas:
+
+academia.html;
+apresentacao.html;
+areniza-barreia.html;
+balaustrada.html;
+bicamaria.html;
+
+*Em breve mais comissões de novas páginas html atualizadas serão enviadas. Em questão de tempo atualizarei todas as páginas.
+
 
 ####################################
 
@@ -446,3 +460,85 @@ pracapedra.html
 rio-branco_casa.html
 rio-branco_era.html
 
+
+
+#####################################################
+
+25/05/2020: 
+
+Criado novo arquivo "Fichas" onde vai ter fichas cartográficas, vindas do arquivo "anexos OFICIAL imprimir.pdf" que foi dividido em arquivos pdf que estão na pasta documents/.
+Os arquivos contidos nessa pasta são os locais de interesse que estão no arquivo locais.html, sendo tirado o tópico "Geral" das Praças que contém divisão. Criado o arquivo card.html que contém a estilização do card que tem um <iframe></iframe> linkando os arquivos pdf. 
+
+Arquivos Criados:
+
+fichas.html
+css/card.css
+documents/academia-frente.pdf
+documents/academia-verso.pdf
+documents/aflora-beberibe-frente.pdf
+documents/aflora-beberibe-verso.pdf
+documents/aflora-gramame-frente.pdf
+documents/aflora-gramame-verso.pdf
+documents/areniza-barreira-frente.pdf
+documents/areniza-barreira-verso.pdf
+documents/balaustrada-frente.pdf
+documents/balaustrada-verso.pdf
+documents/bicamaria-frente.pdf
+documents/bicamaria-verso.pdf
+documents/cacimba-frente.pdf
+documents/cacimba-verso.pdf
+documents/casa-rosa-frente.pdf
+documents/casa-rosa-verso.pdf
+documents/cemiterio-frente.pdf
+documents/cemiterio-verso.pdf
+documents/centro_cultural-frente.pdf
+documents/centro_cultural-verso.pdf
+documents/dolina-frente.pdf
+documents/dolina-verso.pdf
+documents/domadauto_car-frente.pdf
+documents/domadauto_car-verso.pdf
+documents/domadauto_mac-frente.pdf
+documents/domadauto_mac-verso.pdf
+documents/domulrico_matriz-frente.pdf
+documents/domulrico_matriz-verso.pdf
+documents/domulrico_nos-frente.pdf
+documents/domulrico_nos-verso.pdf
+documents/falha-sanhaua-frente.pdf
+documents/falha-sanhaua-verso.pdf
+documents/fonte-frente.pdf
+documents/fonte-milagres-frente.pdf
+documents/fonte-milagres-verso.pdf
+documents/fonte_santo_antonio-frente.pdf
+documents/fonte_santo_antonio-verso.pdf
+documents/fonte-verso.pdf
+documents/fossil-trincheiras-frente.pdf
+documents/fossil-trincheiras-verso.pdf
+documents/gruta-frente.pdf
+documents/gruta-verso.pdf
+documents/misericordia-frente.pdf
+documents/misericordia-verso.pdf
+documents/mosteiro-frente.pdf
+documents/mosteiro-verso.pdf
+documents/praca_dir-frente.pdf
+documents/praca_dir-verso.pdf
+documents/pracaindep_bus-frente.pdf
+documents/pracaindep_bus-verso.pdf
+documents/pracaindep_obe-frente.pdf
+documents/pracaindep_obe-verso.pdf
+documents/praca_jp-frente.pdf
+documents/praca_jp-verso.pdf
+documents/praca_jus-frente.pdf
+documents/praca_jus-verso.pdf
+documents/pracapedra-frente.pdf
+documents/pracapedra-verso.pdf
+documents/praca_red-frente.pdf
+documents/praca_red-verso.pdf
+documents/rio-branco_casa-frente.pdf
+documents/rio-branco_casa-verso.pdf
+documents/rio-branco_era-frente.pdf
+
+Arquivos Modificados:
+
+*.html
+relatorio.txt
+en/relatorio.txt
