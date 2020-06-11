@@ -1,3 +1,15 @@
+.dropdown-new-reduzid-1, .dropdown-new-reduzid-2, .dropdown-new-reduzid-3{
+	display: none;
+}
+#reduzid{
+	margin-left: 15px;
+}
+.ajuste{
+	margin-left: 9px;
+}
+.ajuste-1{
+	margin-left:25px;
+}
 body{
 	margin:0;
 	padding:0;

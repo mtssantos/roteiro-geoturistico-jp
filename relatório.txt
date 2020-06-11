@@ -542,3 +542,17 @@ Arquivos Modificados:
 *.html
 relatorio.txt
 en/relatorio.txt
+
+
+#############################################
+
+11/06/2020
+
+Edição do Menu (Parte PC e Celular), na parte de exploração temática adicionando menus e submenus. Na parte celular foi colocado algumas perfumarias (icones) para deixar mais 
+estilizado o site. Nos icones não uitlizei nenhum link, só código ASCII.
+
+Arquivos modificados:
+
+*.html
+relatorio.txt
+css/init.css
