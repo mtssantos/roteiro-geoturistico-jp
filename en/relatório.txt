@@ -313,3 +313,14 @@ BANCOb.jpg
 P1010167a.JPG
 cc.png
 falha.jpg
+
+27/05/2020
+
+Foram atualizadas e traduzidas as seguintes páginas:
+
+balaustrada.html;
+bicamaria.html;
+cacimba.html;
+casa-rosa.html;
+cemiterio.html;
+centro-cultural.html;
