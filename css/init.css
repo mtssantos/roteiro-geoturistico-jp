@@ -1,6 +1,11 @@
 .dropdown-new-reduzid-1, .dropdown-new-reduzid-2, .dropdown-new-reduzid-3{
 	display: none;
 }
+.look{
+	position: absolute;
+	left: 160px;
+	top:0px;
+}
 #reduzid{
 	margin-left: 15px;
 }
