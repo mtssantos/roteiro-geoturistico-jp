@@ -571,3 +571,14 @@ Arquivos modificados:
 *.html
 relatorio.txt
 css/init.css
+
+##########################################
+
+13/06/2020
+
+Alteração de Menu - Inserindo o link IGREJA e removendo o Link Pedológico...
+
+Arquivos modificados:
+
+*.html
+relatorio.txt
