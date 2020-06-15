@@ -582,3 +582,25 @@ Arquivos modificados:
 
 *.html
 relatorio.txt
+
+############################################
+
+14/06/2020
+
+Separação dos Locais de Interesse ... Adicionado Links e criando arquivos com as separações...
+
+Arquivos Criados:
+
+agua.html
+geologico.html
+geomor.html
+hidro.html
+igreja.html
+obelisco.html
+palacio.html
+pedes.html
+relevo.html
+residencia.html
+rochas.html
+solo.html
+tumulo.html
