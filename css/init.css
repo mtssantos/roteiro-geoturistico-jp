@@ -3,8 +3,14 @@
 }
 .look{
 	position: absolute;
-	left: 160px;
+	left: 156px;
 	top:0px;
+}
+.dropright{
+	margin-right: 0;
+}
+.nav-item{
+	height: 40px;
 }
 #reduzid{
 	margin-left: 15px;
