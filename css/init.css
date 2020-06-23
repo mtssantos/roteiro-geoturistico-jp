@@ -2,9 +2,24 @@
 	display: none;
 }
 .look{
-	position: absolute;
-	left: 156px;
+	position: relative;
+	left: 50px;
 	top:0px;
+}
+.look-1{
+	position:absolute;
+	left:155px;
+	top:0;
+}
+.look-4{
+	position:absolute;
+	left:170px;
+	top:0;
+}
+.look-3{
+	position: absolute;
+	left:190px;
+	top:0;
 }
 .dropright{
 	margin-right: 0;
