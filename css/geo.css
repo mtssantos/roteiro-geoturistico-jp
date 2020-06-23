@@ -86,7 +86,7 @@
 }
 #menu_tactile ul.menu li{
 	border-top:1px solid #347b2a;
-	line-height:39px;
+	line-height:34px;
 }
 #menu_tactile ul.menu li.sel{
 	background-color:#0b3e19;
@@ -332,7 +332,7 @@
 	color:#000;
 	font-family:'Poppins',sans-serif;
 	font-weight:500;
-	font-size:1.14em;
+	font-size: 1.1em;
 	text-transform:uppercase;
 	line-height:1em;
 	text-align:center;
