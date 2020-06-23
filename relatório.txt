@@ -589,18 +589,7 @@ relatorio.txt
 
 Separação dos Locais de Interesse ... Adicionado Links e criando arquivos com as separações...
 
-Arquivos Criados:
+Arquivos Modificados:
 
-agua.html
-geologico.html
-geomor.html
-hidro.html
-igreja.html
-obelisco.html
-palacio.html
-pedes.html
-relevo.html
-residencia.html
-rochas.html
-solo.html
-tumulo.html
+*.html
+css/init.css
