@@ -8,6 +8,7 @@
 #responsive_palier{
 	display:none;
 }
+
 #main{
 	width:100%;
 	overflow:hidden;
@@ -279,7 +280,7 @@
 #entete_contenu #logo,
 #entete #bloc_sous_menu #logo_sous_menu{
 	position:absolute;
-	top:-49px;
+	top:-45px;
 	left:calc(50% - 110px);
 }
 #entete #bloc_sous_menu #logo_sous_menu{
@@ -316,9 +317,6 @@
 	border-bottom:5px solid #fff;
 	width:128px;
 }
-#entete_contenu .menu li.sel{
-	border-bottom:5px solid #43902d;
-}
 #entete #bloc_sous_menu #sous_menu li{
 	border:0;
 }
@@ -337,7 +335,7 @@
 	line-height:1em;
 	text-align:center;
 	display:block;
-	padding-bottom:10px;
+	padding-bottom:13px;
 }
 #entete #bloc_sous_menu #sous_menu li a{
 	opacity:0.3;filter:alpha(opacity=30);
