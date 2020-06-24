@@ -8,21 +8,23 @@
 }
 .look-1{
 	position:absolute;
-	top:-147px;
+	top:0px;
+	left:155px;
 }
 .look-1-1{
-	position:relative;
+	position: absolute;
 	top:0px;
-	margin-bottom: 5px;
+	left:155px;
 }
 .look-1-2{
-	position: relative;
+	position: absolute;
 	top:0px;
+	left:165px;
 }
 .look-3{
 	position: absolute;
 	left:165px;
-	top:0;
+	top:-10px;
 }
 .dropright{
 	margin-right: 0;
