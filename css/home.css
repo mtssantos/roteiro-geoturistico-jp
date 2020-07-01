@@ -445,4 +445,60 @@ p{
 	font-family:'Poppins',sans-serif;
 	font-weight:400;
 }
-
+.error{
+	margin-top:390px;
+	margin-left: 240px;
+	text-align: center;
+	width: 90px;
+}
+.title::after{
+	content: '|';
+	margin-left: 5px;
+	opacity: 1;
+	animation: pisca .7s infinite;
+}
+.title{
+	width: 400px;
+}
+@keyframes pisca{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.title, .title_1{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 100px;
+}
+.header{
+	/*background-color: #cacccb;*/
+	background: url(../media/Erros.svg);
+	background-repeat: no-repeat;
+	height: 700px;
+}
+#corpo{
+	display: inline-block;
+	background-color: #cacccb;
+}
+.image{	
+	margin-left: 600px;
+	padding-left: 10px;
+	padding-top: 4px;
+}
+#raiz, #raiz:target{
+	text-decoration: none;
+	color:blue;
+	margin-left: 100px;
+	font-family: 'Ubuntu', sans-serif;
+}
+#raiz::after{
+	content: '|';
+	margin-left: 5px;
+	opacity: 1;
+	animation: pisca .7s infinite;
+}
