@@ -1,8 +1,48 @@
-<html>
-  <head>
-    <title>ERROR 404</title>
-  <head>
-    <body>
-      <img src="https://blogbringit.com.br/wp-content/uploads/2016/11/banner_404.jpg">
-    </body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="css/home.css" rel="stylesheet" type="text/css" media="all">
+  <title>ERROR 404</title>
+</head>
+<body id="corpo">
+  <div class="header">
+    <div class="image">
+      <img src="media/mundo.gif" class="error" alt="" srcset="">
+      <h2 class="title">Opss!!! Estamos com problemas de encontrar essa página...</h2>
+      <a href="/" id="raiz">Voltar para a página inicial</a>
+    </div>
+  </div>
+
+  <script>
+    function writer(elemento){
+      const textoArray = elemento.innerHTML.split('');
+      elemento.innerHTML = '';
+      textoArray.forEach((letra, i) => {
+        setTimeout(() => {
+          elemento.innerHTML += letra;
+        }, 75 * i)
+        //console.log(letra)
+      });  
+    }
+   function awriter(myelemento){
+      const textoArray = myelemento.innerHTML.split('');
+      myelemento.innerHTML = '';
+      textoArray.forEach((letra, i) => {
+        setTimeout(() => {
+          myelemento.innerHTML += letra
+        }, 75 * i)
+        //console.log(letra)
+      });  
+    }
+    const title = document.querySelector('h2');
+    const link = document.querySelector('a');
+    writer(title);
+    awriter(link);
+ </script>
+  
+</body>
 </html>
