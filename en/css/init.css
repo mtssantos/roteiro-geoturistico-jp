@@ -1,3 +1,63 @@
+.dropdown-new-reduzid-1, .dropdown-new-reduzid-2, .dropdown-new-reduzid-3{
+	display: none;
+}
+.ajuste-3{
+	margin-left: 10px;
+}
+ .look{
+	position: absolute;
+	left: 155px;
+	top:0px;
+}
+.look-1{
+	position:absolute;
+	top:0px;
+	left:155px;
+}
+.look-1-1{
+	position: absolute;
+	top:0px;
+	left:155px;
+}
+.look-1-2{
+	position: absolute;
+	top:0px;
+	left:165px;
+}
+.look-3{
+	position: absolute;
+	left:165px;
+	top:-10px;
+}
+.look-4-1{
+	position:absolute;
+	left: 155px;
+	top:0;
+}
+.look-4{
+	position: absolute;
+	left:163px;
+	top:0;
+}
+.dropright{
+	margin-right: 0;
+}
+.nav-item{
+	height: 40px;
+}
+#reduzid{
+	margin-left: 15px;
+}
+.ajuste{
+	margin-left: 9px;
+}
+.ajuste-1{
+	margin-left:25px;
+}
+.ajuste-3 a{
+	border-top: 1px solid #2c722a;
+
+}
 body{
 	margin:0;
 	padding:0;
