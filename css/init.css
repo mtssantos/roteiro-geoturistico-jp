@@ -58,6 +58,9 @@
 	border-top: 1px solid #2c722a;
 
 }
+sup{
+	font-weight: bold;
+}
 body{
 	margin:0;
 	padding:0;
