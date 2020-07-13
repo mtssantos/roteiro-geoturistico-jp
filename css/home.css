@@ -502,3 +502,11 @@ p{
 	opacity: 1;
 	animation: pisca .7s infinite;
 }
+.table tr th{
+	border: 1.5px solid #000;
+	text-align: center;
+}
+.table tr td{
+	border: 1.5px solid #000;
+	text-align: center;
+}
