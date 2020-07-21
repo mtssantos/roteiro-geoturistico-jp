@@ -116,3 +116,11 @@ div#cache_page.sel,
 div#cache_page_sans_menu_admin.sel{
 	display:block;
 }
+#title-expedição, #subtitle-persona{
+	font-weight: bold;
+}
+#subtitle-persona{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
