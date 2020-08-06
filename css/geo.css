@@ -5,6 +5,9 @@
 	font-weight:400;
 	font-weight:500;
 */
+.material-icons{
+	margin-right: 5px;
+}
 #responsive_palier{
 	display:none;
 }
