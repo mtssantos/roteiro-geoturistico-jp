@@ -7,10 +7,10 @@ Repositório de código do site do Roteiro Geoturistico do Centro Histórico de 
 [https://roteiro-geoturistico-jp.ssantinho.repl.co](https://roteiro-geoturistico-jp.ssantinho.repl.co)
 
 
-##Que temos que fazer?
+## Que temos que fazer?
 
-- [] Terminar Tradução
-- [] Terminar Página Arquivos
+- [ ] Terminar Tradução
+- [ ] Terminar Página Arquivos
 
 
 
