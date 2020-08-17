@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Hydrographic Basins - Evolution</title>
+	<meta name="description" content=" ">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	
+	<link href="css/init.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/geo.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/cmx.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/nexslide.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/fil_ariane.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/lang.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/home.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/cmx_contenu.css" rel="stylesheet" type="text/css" media="all">
+	
+	<link href="css/cmx_editeur.css" rel="stylesheet" type="text/css" media="all">
+	
+	
+	<link rel="stylesheet" media="screen and (max-width: 767px)" href="css/style320.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css/style768.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1279px)" href="css/style1024.css" type="text/css">
+	<link rel="stylesheet" media="screen and (min-width: 1280px)" href="css/style1280.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
+
+
+	<script async="" src="//www.google-analytics.com/analytics.js"></script>
+  
+  	<script type="text/javascript" src="js/fct.js"></script>
+	
+	<script type="text/javascript" src="js/mailto.js"></script>
+	
+	<script type="text/javascript" src="js/class.js"></script>
+	
+	<script type="text/javascript" src="js/preload_images.js"></script>
+	
+	<script type="text/javascript" src="js/menu.js"></script>
+	
+	<script type="text/javascript" src="js/nexslide.js"></script>
+	
+	<script type="text/javascript" src="js/opacity.js"></script>
+	
+	<script type="text/javascript" src="js/home.js"></script>
+
+	<style>
+    .lista-menu{
+      display:none; 
+    }
+    .dropdown-reduzid{
+      display:none;
+    }
+    .dropdown-new-reduzid{
+      display:none;
+    }
+
+
+	</style>
+
+	
+</head>
+<body class="home" onload="
+	mel2_onload();
+	nexslide_onload();
+	preload_images();
+	
+	
+	recherche_load();
+">
+	
+	
+	
+	<div id="cache_page"></div>
+	<div id="cache_page_sans_menu_admin"></div>
+	
+
+	<div id="main" class="home page_">
+	<div id="menu_tactile">
+		<span id="btn_ferme_menu" onclick="ferme_menu_tactile();"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+</svg>
+</span>
+		<a href="" class="logo"  style="margin-left:25%;"><img src="media/logo-nova.png"></a>
+
+
+		<ul class="menu" >
+
+			<li class=" pere menu_1" ><a href="">HOME</a></li>
+	
+			<li class=" pere menu_2"><a href="apresentacao.html">PRESENTATION</a></li>
+	
+	
+			<li class=" pere menu_3">
+				<a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+				GEOTOURISM
+				</a>
+			<div class="collapse" id="collapseExample">
+				<a class="lista-menu" href="intro.html">&#9679; Introduction</a>
+				<a class="lista-menu" href="hist.html">&#9679; Historic</a>
+				<a class="lista-menu" href="desc.html">&#9679; Definition</a>
+				<a class="lista-menu" href="geourb.html">&#9679; Urban Geotourism</a>
+				<a class="lista menu" href="geobrasil.html">&#9679; Geotourism In Brazil</a>
+				</div>
+	
+			</li>
+			<li class=" pere menu_4">
+				<a data-toggle="collapse" href="#dropdownMenuLink" role="button" aria-expanded="false" aria-controls="collapseExample">
+				EXPLORE
+				</a>
+			<div class="collapse" id="dropdownMenuLink">
+				<a class="dropdown-item" href="criterios.html" >&#9679;	Criteria</a>
+				<a class="dropdown-item" href="locais.html">&#9679;	Places Of Interest</a>
+				<a class="dropdown-item" href="fichas.html">&#9679;	Files</a>
+				<a data-toggle="collapse" href="#dropdownMenuLink-1" role="button" aria-expanded="false" aria-controls="collapseExample">
+					&#9679;	Thematic Exploration
+				</a>
+	
+			<div class="collapse" id="dropdownMenuLink-1">
+					<a data-toggle="collapse" href="#dropdownMenuLink-1-1" class="ajuste" role="button"  aria-expanded="false" aria-controls="collapseExample">
+						&#8658; Abiotic 
+					</a>
+				<a data-toggle="collapse" href="#dropdownMenuLink-1-2" class="ajuste" role="button"  aria-expanded="false" aria-controls="collapseExample">
+					&#8658; Cultural
+				</a>
+				<div class="collapse" id="dropdownMenuLink-1-2">
+					<a data-toggle="collapse" href="#dropdownMenuLink-5-1" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+						&#9642; OBELISK
+					</a>
+				<div class="collapse" id="dropdownMenuLink-5-1">
+					<a class="dropdown-item ajuste-2" href="pracaindep_obe.html">&#8618; Obelisk In Independence Square</a>
+					<a class="dropdown-item ajuste-2" href="praca_jp.html">&#8618; João Pessoa Sculpture</a>
+				</div>
+				<a data-toggle="collapse" href="#dropdownMenuLink-5-2" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+					&#9642; PEDESTAL
+				</a>
+				<div class="collapse" id="dropdownMenuLink-5-2">
+					<a class="dropdown-item ajuste-2" href="jardim.html">&#8618; Academos Garden</a>
+					<a class="dropdown-item ajuste-2" href="praca_dir.html">&#8618; Law School</a>
+					<a class="dropdown-item ajuste-2" href="pracaindep_bus.html">&#8618; Epitácio Pessoa Bust</a>
+					<a class="dropdown-item ajuste-2" href="dom-ulrico_nos.html">&#8618; Statue in Homage to <br>Our Lady of Lourdes</a>
+					<a class="dropdown-item ajuste-2" href="domadauto_mac.html">&#8618; Monument to Álvaro Lopes <br>Machado</a>
+					<a class="dropdown-item ajuste-2" href="dom-ulrico_mat.html">&#8618; Monument to Nossa Senhora <br>das Neves</a>
+				</div>
+				<a data-toggle="collapse" href="#dropdownMenuLink-5-3" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+					&#9642; RESIDENCE
+				</a>
+				<div class="collapse" id="dropdownMenuLink-5-3">
+					<a class="dropdown-item ajuste-2" href="academia.html">&#8618; Paraíba Academy <br> Of Letters</a>
+					<a class="dropdown-item ajuste-2" href="rio-branco_era.html">&#8618; Post Office</a>
+					<a class="dropdown-item ajuste-2" href="rio-branco_casa.html">&#8618; House Of The Treasury</a>
+					<a class="dropdown-item ajuste-2" href="casa-rosa.html">&#8618; Rose Quartz House</a>
+					</div>
+					<a data-toggle="collapse" href="#dropdownMenuLink-5-4" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+						&#9642; CEMETERY/TUMB
+					</a>
+				<div class="collapse" id="dropdownMenuLink-5-4">
+					<a class="dropdown-item ajuste-2" href="cemiterio.html">&#8618; Senhor da <br> Boa Sentença Cemetery</a>
+					<a class="dropdown-item ajuste-2" href="praca_jus.html">&#8618; Court of Justice</a>
+				</div>
+				<a data-toggle="collapse" href="#dropdownMenuLink-5-5" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+					&#9642; PALACE
+				</a>
+				<div class="collapse" id="dropdownMenuLink-5-5">
+					<a class="dropdown-item ajuste-2" href="praca_red.html">&#8618; Redemption Palace</a>
+				</div>
+				<a data-toggle="collapse" href="#dropdownMenuLink-5-6" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+					&#9642; Church
+				</a>
+				<div class="collapse" id="dropdownMenuLink-5-6">
+					<a class="dropdown-item ajuste-2" href="misericordia.html">&#8618; Saint House <br> of Mercy</a>
+					<a class="dropdown-item ajuste-2" href="domadauto_car.html">&#8618; Church of Our Lady of Mount Carmel</a>
+					<a class="dropdown-item ajuste-2" href="mosteiro.html">&#8618; Monastery of St. Benedict</a>
+					<a class="dropdown-item ajuste-2" href="centro-cultural.html">&#8618;  San Francisco <br> Cultural Center </a>
+				</div>
+				</div>
+					<div class="collapse" id="dropdownMenuLink-1-1">
+						<a data-toggle="collapse" id="reduzid" href="#dropdownMenuLink-2-1" role="button" aria-expanded="false" aria-controls="collapseExample">
+							&#9654;  Geodiversity
+						</a>
+						<div class="collapse" id="dropdownMenuLink-2-1">
+							<a data-toggle="collapse" class="ajuste-1" href="#dropdownMenuLink-3-1" role="button" aria-expanded="false" aria-controls="collapseExample">
+								&#9642;  Water
+							</a>
+							<div class="collapse" id="dropdownMenuLink-3-1">
+									<a class="dropdown-item ajuste-2" href="fonte-santo-antonio.html">&#8618; St. Antônio Fountain</a>
+									<a class="dropdown-item ajuste-2" href="bicamaria.html.html">&#8618; Ugly Maria Spout</a>
+									<a class="dropdown-item ajuste-2" href="cacimba.html">&#8618; People's Cacimba</a>
+									<a class="dropdown-item ajuste-2" href="fonte-milagres.html">&#8618; Miracles Fountain</a>
+							</div>
+							<a data-toggle="collapse" class="ajuste-1" href="#dropdownMenuLink-3-2" role="button" aria-expanded="false" aria-controls="collapseExample">
+								&#9642;  Ground
+							</a>
+							<div class="collapse" id="dropdownMenuLink-3-2">
+									<a class="dropdown-item ajuste-2" href="areniza-barreira.html">&#8618; Barreiras Sandstone</a>
+							</div>
+							<a data-toggle="collapse" class="ajuste-1" href="#dropdownMenuLink-3-3" role="button" aria-expanded="false" aria-controls="collapseExample">
+								&#9642;  Relief
+							</a>		
+							<div class="collapse" id="dropdownMenuLink-3-3">
+									<a class="dropdown-item ajuste-2" href="balaustrada.html">&#8618; Balustrade of <br> Trenches</a>
+									<a class="dropdown-item ajuste-2" href="gruta.html">&#8618; Grotto of the Tides</a>
+	
+							</div>
+							<a data-toggle="collapse" class="ajuste-1" href="#dropdownMenuLink-3-4" role="button" aria-expanded="false" aria-controls="collapseExample">
+								&#9642;  Rocks
+							</a>
+							<div class="collapse" id="dropdownMenuLink-3-4">
+								<a class="dropdown-item ajuste-2" href="pracapedra.html">&#8618; Stone Square</a>
+								<a class="dropdown-item ajuste-2" href="aflora-gramame.html">&#8618; Outcrop of the <br> Gramame Formation</a>
+								<a class="dropdown-item ajuste-2" href="aflora-beberibe.html">&#8618; Outcrop of the <br> Beberibe Formation</a>
+								<a class="dropdown-item ajuste-2" href="fossil-trincheiras.html">&#8618; Trench Fossil</a>
+	
+							</div>	
+						</div>
+						<a data-toggle="collapse" id="reduzid" href="#dropdownMenuLink-2-2" role="button" aria-expanded="false" aria-controls="collapseExample">
+							&#9654;  Geopatrimony
+						</a>
+						<div class="collapse" id="dropdownMenuLink-2-2">
+							<a data-toggle="collapse" class="ajuste-1" href="#dropdownMenuLink-4-1" role="button" aria-expanded="false" aria-controls="collapseExample">
+								&#9642;  Geological
+							</a>
+						<div class="collapse" id="dropdownMenuLink-4-1">
+							<a class="dropdown-item ajuste-2" href="falha-sanhaua.html">&#8618; Sanhauá Failure</a>
+						</div>
+						<a data-toggle="collapse" class="ajuste-1" href="#dropdownMenuLink-4-2" role="button" aria-expanded="false" aria-controls="collapseExample">
+							&#9642;  Geomorphological
+						</a>
+						<div class="collapse" id="dropdownMenuLink-4-2">
+							<a class="dropdown-item ajuste-2" href="dolina.html">&#8618; Dolina dos Ireres</a>
+						</div>
+						<a data-toggle="collapse" class="ajuste-1" href="#dropdownMenuLink-4-3" role="button" aria-expanded="false" aria-controls="collapseExample">
+							&#9642;  Hydrological
+						</a>
+						<div class="collapse" id="dropdownMenuLink-4-3">
+							<a class="dropdown-item ajuste-2" href="fonte.html">&#8618; Tambiá Fountain</a>
+						</div>
+						</div>
+					</div> 
+			</div>
+	
+			</div>
+			</li>
+	
+			<li class=" pere menu_5">
+				<a data-toggle="collapse" href="#dropdownMenuLink-6" role="button"  aria-expanded="false" aria-controls="collapseExample">
+					OUR TERRITORY
+				</a>
+				<div class="collapse" id="dropdownMenuLink-6">
+					<a data-toggle="collapse" href="#dropdownMenuLink-6-2" class="ajuste-3" role="button"  aria-expanded="false" aria-controls="collapseExample">
+						&#9679; Natural Frame
+					</a>
+					<div class="collapse" id="dropdownMenuLink-6-2">
+						<a data-toggle="collapse" href="#dropdownMenuLink-6-1-1" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+							&#8658; Geology
+						</a>
+						<div class="collapse" id="dropdownMenuLink-6-1-1">
+							<a href="embasamento.html" class="dropdown-item">&#9642; Crystalline Basement</a>
+							<a data-toggle="collapse" href="#dropdownMenuLink-6-2-1"  role="button"  aria-expanded="false" aria-controls="collapseExample">
+								&#9642; Marginal Basins
+							</a>
+							<div class="collapse ajuste-1" id="dropdownMenuLink-6-2-1">
+								<a href="evolucao.html" class="dropdown-item">&#8618; Evolution</a>
+								<a href="unidadelitio.html" class="dropdown-item">&#8618; Lithostratigraphic <br> Units</a>
+								<a href="tectonica.html" class="dropdown-item">&#8618; Tectonics</a>
+							</div>
+	
+						</div>
+						<a data-toggle="collapse" href="#dropdownMenuLink-6-1-2" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+							&#8658; Geomorphology
+						</a>
+						<div class="collapse" id="dropdownMenuLink-6-1-2">
+							<a href="mapeamento.html" class="dropdown-item">&#9642; Theoretical Context of <br> Mapping</a>
+							<a href="geomor.html" class="dropdown-item">&#9642; Geomorphological <br> Domains </a>
+							<a href="costeira.html" class="dropdown-item">&#9642; Coastal Dynamics</a>
+						</div>
+						<a data-toggle="collapse" href="#dropdownMenuLink-6-1-3" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+							&#8658; Hydrology
+						</a>
+						<div class="collapse" id="dropdownMenuLink-6-1-3">
+							<a href="introhidro.html" class="dropdown-item">&#9642; Introduction</a>
+							<a href="neo.html" class="dropdown-item">&#9642; Relationship with the <br> Neotectonic System </a>
+							<a href="fonteagua.html" class="dropdown-item">&#9642; Fresh Water Fountain</a>
+	
+						</div>
+						<a data-toggle="collapse" href="#dropdownMenuLink-6-1-4" class="ajuste-1" role="button"  aria-expanded="false" aria-controls="collapseExample">
+							&#8658; Weather
+						</a>
+						<div class="collapse" id="dropdownMenuLink-6-1-4">
+							<a href="introclima.html" class="dropdown-item">&#9642; Introduction</a>
+							<a href="elementos.html" class="dropdown-item">&#9642; Climatic Elements</a>
+						</div>
+						<a href="solo.html" class="dropdown-item ajuste-1">&#8658; Ground</a>
+						<a href="vegetacao.html" class="dropdown-item ajuste-1">&#8658; Vegetation</a>					
+					</div>
+					<a data-toggle="collapse" href="#dropdownMenuLink-6-3" class="ajuste-3" role="button"  aria-expanded="false" aria-controls="collapseExample">
+						&#9679; Historical Table
+					</a>
+					<div class="collapse" id="dropdownMenuLink-6-3">
+						<a href="antecedentes.html" class="dropdown-item">&#8658; Historical Background</a>
+						<a href="cronistas.html" class="dropdown-item">&#8658; Chroniclers</a>
+						<a href="iconografia.html" class="dropdown-item">&#8658; Iconography</a>
+					</div>
+					<a data-toggle="collapse" href="#dropdownMenuLink-6-4" class="ajuste-3" role="button"  aria-expanded="false" aria-controls="collapseExample">
+						&#9679; Socioeconomic Framework
+					</a>
+					<div class="collapse" id="dropdownMenuLink-6-4">
+						<a href="demografia.html" class="dropdown-item">&#8658; Demography</a>
+						<a href="turismo.html" class="dropdown-item">&#8658; Tourism</a>
+					</div>
+				</div>
+			</li>
+	
+			<li class=" pere menu_6"><a href="404.html">PUBLISHING</a></li>
+	
+	
+			<li class=" pere menu_5" style="border:0;"><a href="../"><img src="https://a-static.mlcdn.com.br/618x463/adesivo-bandeira-do-brasil-clickfik/clickfik/5939/716a5bdd1fe89b3c2968c964ec79aa50.jpg" width="55px" height="45px"></a></li>
+	
+	
+			</ul>
+	</div>
+	<div id="entete">
+		<div id="bloc_moteur_recherche">
+	<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.938" height="18.937" viewBox="0 0 18.938 18.937">
+  <path id="Forme_30" data-name="Forme 30" class="cls-1" d="M990.19,415.518l8.6-8.627a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627-8.607-8.627a0.5,0.5,0,1,0-.7.705l8.605,8.627-8.605,8.627a0.5,0.5,0,0,0,.7.706l8.606-8.627,8.606,8.627a0.5,0.5,0,1,0,.705-0.706l-8.606-8.627h0Z" transform="translate(-980.031 -406.063)"></path>
+</svg>
+</span>
+	
+</div>
+		<div id="bloc_sous_menu">
+	
+	
+	<div id="entete_sous_menu">
+		<span id="btn_ferme_menu"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+</svg>
+</span>
+	
+		<div id="bloc_reseaux_tactile">
+			<a href="https://www.facebook.com/GeoparkBeaujolais/"  id="lien_facebook_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="19.18" height="19.188" viewBox="0 0 19.18 19.188">
+  <path fill="#fff" d="M1216.66,33.6h-9.2a1.057,1.057,0,0,1-1.06-1.06V15.46a1.057,1.057,0,0,1,1.06-1.06h17.08a1.057,1.057,0,0,1,1.06,1.06V32.54a1.057,1.057,0,0,1-1.06,1.06h-4.89V26.164h2.49l0.38-2.9h-2.87v-1.85a1.2,1.2,0,0,1,1.43-1.41h1.54V17.414a20.63,20.63,0,0,0-2.24-.114,3.487,3.487,0,0,0-3.72,3.83v2.137h-2.51v2.9h2.51V33.6h0Z" transform="translate(-1206.41 -14.406)"></path>
+</svg>
+</a>
+			<a href="https://www.instagram.com/geoparkbeaujolais/"  id="lien_instagram_entete_tactile"><svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 18.5 18.5">
+  <path fill="#fff" d="M1246.25,15c-2.51,0-2.83.011-3.81,0.056a6.782,6.782,0,0,0-2.25.43,4.57,4.57,0,0,0-1.64,1.067,4.485,4.485,0,0,0-1.06,1.638,6.635,6.635,0,0,0-.43,2.246c-0.05.986-.06,1.3-0.06,3.814s0.01,2.827.06,3.814a6.633,6.633,0,0,0,.43,2.245,4.489,4.489,0,0,0,1.06,1.638,4.585,4.585,0,0,0,1.64,1.067,6.809,6.809,0,0,0,2.25.43c0.98,0.045,1.3.056,3.81,0.056s2.83-.011,3.81-0.056a6.809,6.809,0,0,0,2.25-.43,4.585,4.585,0,0,0,1.64-1.067,4.489,4.489,0,0,0,1.06-1.638,6.633,6.633,0,0,0,.43-2.245c0.05-.987.06-1.3,0.06-3.814s-0.01-2.827-.06-3.814a6.635,6.635,0,0,0-.43-2.245,4.485,4.485,0,0,0-1.06-1.638,4.57,4.57,0,0,0-1.64-1.067,6.782,6.782,0,0,0-2.25-.43C1249.08,15.01,1248.76,15,1246.25,15Zm0,1.667c2.47,0,2.76.01,3.74,0.054a5.176,5.176,0,0,1,1.72.318,2.837,2.837,0,0,1,1.06.692,2.938,2.938,0,0,1,.69,1.064,5,5,0,0,1,.32,1.718c0.04,0.975.05,1.268,0.05,3.738s-0.01,2.762-.05,3.738a4.99,4.99,0,0,1-.32,1.717,2.936,2.936,0,0,1-.69,1.064,2.842,2.842,0,0,1-1.06.692,5.168,5.168,0,0,1-1.72.318c-0.98.045-1.27,0.054-3.74,0.054s-2.76-.009-3.74-0.054a5.168,5.168,0,0,1-1.72-.318,2.842,2.842,0,0,1-1.06-.692,2.936,2.936,0,0,1-.69-1.064,4.99,4.99,0,0,1-.32-1.717c-0.04-.976-0.05-1.268-0.05-3.738s0.01-2.762.05-3.738a5,5,0,0,1,.32-1.718,2.938,2.938,0,0,1,.69-1.064,2.837,2.837,0,0,1,1.06-.692,5.176,5.176,0,0,1,1.72-.318C1243.49,16.676,1243.78,16.666,1246.25,16.666Zm0,2.834a4.75,4.75,0,1,0,4.75,4.75A4.752,4.752,0,0,0,1246.25,19.5Zm0,7.833a3.083,3.083,0,1,1,3.08-3.083A3.082,3.082,0,0,1,1246.25,27.333Zm6.05-8.021a1.11,1.11,0,1,1-1.11-1.11A1.112,1.112,0,0,1,1252.3,19.312Z" transform="translate(-1237 -15)"></path>
+</svg>
+</a>
+		</div>
+	</div>
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_1">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+</svg>
+</span>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_3">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+</svg>
+</span>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_4">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+</svg>
+</span>
+		
+	</div>
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_5">
+		<span class="fermer"><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+</svg>
+</span>
+		
+			
+	</div>
+	
+	
+	
+	<div class="entour_sous_menu_detail" id="entour_sous_menu_detail_6">
+		<span class="fermer" ><svg xmlns="http://www.w3.org/2000/svg" width="18.906" height="18.938" viewBox="0 0 18.906 18.938">
+  <path fill="#fff" d="M34.192,25.523L42.8,16.9a0.5,0.5,0,0,0-.7-0.705l-8.606,8.627L24.882,16.19a0.5,0.5,0,1,0-.7.705l8.606,8.627L24.179,34.15a0.5,0.5,0,0,0,.7.706l8.606-8.627L42.1,34.856a0.5,0.5,0,0,0,.352.145A0.5,0.5,0,0,0,42.8,34.15l-8.606-8.627h0Z" transform="translate(-24.063 -16.063)"></path>
+</svg>
+</span>
+		
+	</div>
+	
+	
+</div>
+		<div id="entete_haut">
+			<span id="btn_ouvre_menu" onclick="ouvre_menu_tactile()"><svg xmlns="http://www.w3.org/2000/svg" width="25.593" height="17" viewBox="0 0 25.593 17">
+  <path fill="#fff" d="M647.19,1556.5h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Zm0,7h25.6v3h-25.6v-3Z" transform="translate(-647.188 -1556.5)"></path>
+</svg>
+</span>
+			
+			<span class="filet_gauche"></span>
+			<span class="filet_droite"></span>
+		</div>
+		<div id="entete_contenu" style="width:auto">
+			
+			<ul class="menu">
+
+				
+				<li class=" pere menu_1" style="border:0;margin-left:10px;"><a href="">HOME</a></li>
+	
+				<li class=" pere menu_2" style="border:0;"><a href="apresentacao.html">PRESENTATION</a></li>
+	
+	
+				<a id="logo">
+					<img src="media/logo-nova.png" width="140px" height="140px" style="margin-left: 17%;">
+				</a>
+				<li class="nav-item dropdown menu_3" style="border:0;margin-right:300px;">
+					<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					EXPLORE
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-top:-13px;">
+						<a class="dropdown-item" href="criterios.html" >Criteria</a>
+					<a class="dropdown-item" href="locais.html" >Places Of Interest</a>
+					<a class="dropdown-item" href="fichas.html" >Files</a>
+					<div class="nav-item dropdown" style="border:0;margin-right:1%">
+					<a class="dropdown-toggle  pere" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Thematic Exploration
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<div class="dropdown dropright">
+							<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Abiotic
+							</a>
+							<div class="dropdown-menu look" aria-labelledby="dropdownMenuLink">
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" role="button" id="menudropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Geodiversity	
+									</a>
+									<div class="dropdown-menu look" aria-labelledby="dropdownMenuLink">
+										<div class="dropdown dropright">
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Water	
+										</a>
+										<div class="dropdown-menu look-1" aria-labelledby="dropdownMenuLink-1">
+											<a class="dropdown-item" href="fonte-santo-antonio.html">St. Antônio Fountain</a>
+											<a class="dropdown-item" href="bicamaria.html">Ugly Maria Spout</a>
+											<a class="dropdown-item" href="cacimba.html">People's Cacimba</a>
+											<a class="dropdown-item" href="fonte-milagres.html">Miracle Fountain</a>
+										</div>
+									</div>
+									<div class="dropdown">
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Ground	
+										</a>
+										<div class="dropdown-menu look-1-1" aria-labelledby="dropdownMenuLink">
+											<a class="dropdown-item" href="areniza-barreira.html">Barreiras Sandstone</a>
+										</div>
+									</div>
+									<div class="dropdown">
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Relief
+										</a>
+										<div class="dropdown-menu look-1-1">
+											<a class="dropdown-item" href="balaustrada.html">Trench Balustrade</a>
+											<a class="dropdown-item" href="gruta.html">Grotto of the Tides</a>
+										</div>
+									</div>
+									<div class="dropdown">
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Rocks	
+										</a>
+										<div class="dropdown-menu look-1-1">
+											<a class="dropdown-item" href="pracapedra.html">Stone Square</a>
+											<a class="dropdown-item" href="aflora-gramame.html">Outcrop Of <br> Gramame Formation </a>
+											<a class="dropdown-item" href="aflora-beberibe.html">Outcrop Of Beberibe<br>
+												Formation</a>
+											<a class="dropdown-item" href="fossil-trincheiras.html">Trench Fossil</a>
+										</div>
+	
+									</div>
+									</div>
+								</div>	
+								<div class="dropdown">
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Geopatrimony
+										</a>
+										<div class="dropdown-menu look" aria-labelledby="dropdownMenuLink">
+											<div class="dropdown">
+												<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Geological
+												</a>
+												<div class="dropdown-menu look-1-2">
+												<a class="dropdown-item" href="falha-sanhaua.html">Sanhauá Failure</a>
+												</div>
+											</div>
+											<div class="dropdown">
+												<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Geomorphological
+												</a>
+												<div class="dropdown-menu look-1-2">
+												<a class="dropdown-item" href="dolina.html">Dolina dos Irerês</a>
+											</div>
+											</div>
+											<div class="dropdown">
+												<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Hydrological
+												</a>
+												<div class="dropdown-menu look-1-2">
+													<a class="dropdown-item" href="fonte.html">Tambiá Fountain</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="dropdown show dropright">
+							<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Cultural	
+							</a>
+							<div class="dropdown-menu look" aria-labelledby="dropdownMenuLink">
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Obelisk	
+									</a>
+									<div class="dropdown-menu look-3">
+										<a class="dropdown-item" href="pracaindep_obe.html">Obelisk In Independence<br> Square</a>
+										<a class="dropdown-item" href="praca_jp.html">João Pessoa Sculpture</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Pedestal	
+									</a>
+									<div class="dropdown-menu look-3">
+										<a class="dropdown-item" href="jardim.html">Academos Garden</a>
+										<a class="dropdown-item" href="praca_dir.html">Law School</a>
+										<a class="dropdown-item" href="pracaindep_bus.html">Epitácio Pessoa Bust</a>
+										<a class="dropdown-item" href="dom-ulrico_nos.html">Statue in Homage to <br>Our Lady of Lourdes</a>
+										<a class="dropdown-item" href="domadauto_mac.html">Monument to Álvaro Lopes <br>Machado</a>
+										<a class="dropdown-item" href="dom-ulrico_mat.html">Monument to Our Lady <br>Of Neves</a>
+	
+									</div>
+								</div>
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Residence	
+									</a>
+									<div class="dropdown-menu look-3">
+										<a class="dropdown-item" href="academia.html">Paraiba Academy Of <br> Letters</a>
+										<a class="dropdown-item" href="rio-branco_era.html">Post Office</a>
+										<a class="dropdown-item" href="rio-branco_casa.html">House Of The Treasury</a>
+										<a class="dropdown-item" href="casa-rosa.html">Rose Quartz House</a>
+	
+									</div>
+								</div>
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Cemetery/Tumb	
+									</a>
+									<div class="dropdown-menu look-3">
+										<a class="dropdown-item" href="cemiterio.html">Senhor da <br> Boa Sentença Cemetery</a>
+										<a class="dropdown-item" href="praca_jus.html">Court Of Justice</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Palace	
+									</a>
+									<div class="dropdown-menu look-3">
+										<a class="dropdown-item" href="praca_red.html">Redemption Palace</a>
+									</div>
+								</div>
+								<div class="dropdown">
+									<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Church	
+									</a>
+									<div class="dropdown-menu look-3">
+										<a class="dropdown-item" href="misericordia.html">Saint House of Mercy</a>
+										<a class="dropdown-item" href="domadauto_car.html">Church of Our Lady of Mount Carmel</a>
+										<a class="dropdown-item" href="mosteiro.html">Monastery of St. Benedict</a>
+										<a class="dropdown-item" href="centro-cultural.html">San Francisco <br> Cultural Center</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+					</div>
+					
+					
+				</li>
+				<li class="nav-item dropdown menu_43" style="border:0;">
+					<a class="dropdown-toggle pere menu_2" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						OUR TERRITORY
+						</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<div class="dropdown dropright">
+								<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Natural Frame
+								</a>
+								<div class="dropdown-menu look-4">
+									<div class="dropdown dropright">					
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Geology
+										</a>
+										<div class="dropdown-menu look-4-1">
+											<a href="embasamento.html" class="dropdown-item">Crystalline Basement</a>
+											<div class="dropdown">
+												<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Marginal Basins
+												</a>
+												<div class="dropdown-menu">
+													<a href="evolucao.html" class="dropdown-item">Evolution</a>
+													<a href="unidadelitio.html" class="dropdown-item">Lithostratigraphic <br> Units</a>
+													<a href="tectonica.html" class="dropdown-item">Tectonics</a>
+												</div>
+										</div>
+										</div>
+									</div>
+									<div class="dropdown dropright">					
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Geomorphology
+										</a>
+										<div class="dropdown-menu look-4-1">
+											<a href="mapeamento.html" class="dropdown-item">Theoretical Context of <br> Mapping</a>
+											<a href="geomor.html" class="dropdown-item">Geomorphological <br> Domains</a>
+											<a href="costeira.html" class="dropdown-item">Coastal Dynamics</a>
+
+										</div>
+									</div>
+									<div class="dropdown dropright">					
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Hydrography
+										</a>
+										<div class="dropdown-menu look-4-1">
+											<a href="introhidro.html" class="dropdown-item">Introduction</a>
+											<a href="neo.html" class="dropdown-item">Relationship with the <br> Neotectonic System </a>
+											<a href="fonteagua.html" class="dropdown-item">Fresh Water Fountain</a>
+										</div>
+									</div>
+									<div class="dropdown dropright">					
+										<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Weather
+										</a>
+										<div class="dropdown-menu look-4-1">
+										<a href="introclima.html" class="dropdown-item">Introduction</a>
+										<a href="elementos.html" class="dropdown-item">Climatic Elements</a>
+										</div>
+									</div>
+									<div class="dropdown dropright">					
+										<a href="vegetacao.html" class="dropdown-item">Vegetation</a>
+									</div>
+									<div class="dropdown dropright">					
+										<a href="solo.html" class="dropdown-item">Ground</a>
+									</div>
+								</div>
+								
+							</div>
+							<div class="dropdown dropright">
+								<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Historical Table
+								</a>
+								<div class="dropdown-menu look-4">
+									<a href="antecedentes.html" class="dropdown-item">Historical Background</a>
+									<a href="cronistas.html" class="dropdown-item">Chroniclers</a>
+									<a href="iconografia.html" class="dropdown-item">Iconography</a>
+								</div>
+								
+							</div>	
+							<div class="dropdown dropright">
+								<a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Socioeconomic Framework
+								</a>
+								<div class="dropdown-menu look-4">
+									<a href="demografia.html" class="dropdown-item">Demography</a>
+									<a href="turismo.html" class="dropdown-item">Tourism</a>
+								</div>
+								
+							</div>									
+							</div>
+						
+				</li>
+				<li class="nav-item dropdown menu_43" style="border:0;">
+					<a class="nav-link dropdown-toggle pere menu_2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					GEOTOURISM
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="margin-bottom:0.01px;">
+					<a class="dropdown-item" href="intro.html" >Introduction</a>
+					<a class="dropdown-item" href="hist.html" >Historic</a>
+					<a class="dropdown-item" href="desc.html" >Definition</a>
+					<a class="dropdown-item" href="geourb.html">Urban Geotourism</a>
+					<a class="dropdown-item" href="geobrasil.html">Geotourism In Brazil</a>
+					</div>
+				</li>
+	
+
+	
+				<li class=" menu_43" style="border:0;"><a href="404.html">PUBLISHING</a></li>
+	
+				<li class=" pere menu_5" style="border:0;"><a href="../"><img src="https://a-static.mlcdn.com.br/618x463/adesivo-bandeira-do-brasil-clickfik/clickfik/5939/716a5bdd1fe89b3c2968c964ec79aa50.jpg" width="55px" height="45px"></a></li>
+	
+				</ul>
+			
+		</div>
+		
+		<ul id="image_home" class="preload_images">
+	
+	<li class="sel">
+		<img src="media/01.jpg" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
+		</div>
+	</li>
+	
+	<li class="">
+		<img src="media/02.JPG" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
+			
+		</div>
+	</li>
+	
+	<li class="">
+		<img src="media/03.jpg" alt="" class="principale" width="700" height="750">
+		<div class="info_texte">
+			<h1>Geotourism Tour of the Historic Center of João Pessoa</h1>
+			
+		</div>
+	</li>
+	
+
+	
+</ul>
+<ul id="image_home_puce">
+	
+	<li class="sel" onclick="image_home_sel(0);"></li>
+	
+	<li onclick="image_home_sel(1);" class=""></li>
+	
+	<li onclick="image_home_sel(2);" class=""></li>
+	
+
+	
+</ul>
+		
+		
+	</div>
+		  
+    <main style="margin:2% 12% 2% 12%;">
+        <h2>Hydrographic Basins - Evolution</h2>
+        <p style="text-align:justify;text-indent: 4em;">The coastal marginal basins are divided into Sergipe-Alagoas, Pernambuco, Paraíba, Potiguar and Barreirinhas. Its formation is directly related to the continental drift that separated the African and South American continents, with the <b> Paraíba Basin </b> the last to maintain contact with Africa. The area of ​​this thesis is entirely inserted in the Paraíba Basin, one of the northeastern basins belonging to the Brazilian marginal basins, called <b> Coastal Province </b> (Almeida et al., 1977). For this work, the limits of the Paraíba Basin, from Lineamento Pernambuco to Lineamento Paraíba <sup> 1 </sup> will be considered. In the literature, this basin was part, until the mid-1990s, of the Pernambuco-Paraíba Coastal Sedimentary Basin <sup> 2 </sup>, when a separation was proposed by Lima Filho (1998) in two basins, Pernambuco and Paraíba , as they present origin, evolution and distribution of different formations, with the Linear Pernambuco as a limiting element. To date, the delimitation of the contour of the Paraíba-Pernambuco-Potiguar basins is not consensual, as well as discussions about the stratigraphic column and evolutionary history are also controversial.</p>
+        <p style="text-align:justify;text-indent: 4em;">Figure 1 shows the northeastern portion of some marginal basins, locating the <b> Paraíba Basin </b> between the Pernambuco Shear Zone and the Mamanguape Fault. This basin is subdivided, from south to north, into sub-basins: Olinda, Alhandra (where our study area is located) and Miriri. It borders: to the north, with the Natal Platform of the Potiguar Basin, through the Lineamento Paraíba, which extends through the Fault of Mamanguape; to the south, with the Pernambuco Basin, through the Lineamento Pernambuco; and to the west, with the crystalline base. This will be the configuration that will be followed in this thesis.</p>
+        <div class="text-center">
+            <figure class="figure">
+                <a href="media/evolução1.png"><img src="media/evolução1.png" alt="" class="img-fluid"></a><br>
+                <figurecaption class="figure-caption">Figure 1 - Location map of the northeastern Brazilian marginal basins, with the position of the project area (in red). Source: modified by Barbosa and Lima Filho (2006).</figurecaption>
+            </figure>
+        </div>
+        <p style="text-align:justify;text-indent: 4em;">All of the evolutionary proposals presented below, for the sedimentary strip between Recife and Natal, therefore covering the <b> Paraíba Basin </b> and the eastern portion of the Potiguar Basin, were elaborated from a sum of data obtained geophysical studies, paleoecological and paleontological investigations, field studies, stratigraphy, sedimentology, among others, by several authors. However, it is worth mentioning that, of the marginal basins, the Paraíba Basin is one of the least studied.</p>
+        <p style="text-align:justify;text-indent: 4em;">After the advent of <b> Plate Tectonic Theory </b>, in the 1970s, explanatory proposals for the dynamics of continental drift intensified, especially between the South American and African plates, and about the tectonic consequences of this event, such as the expansion of the ocean floor, the opening of the Atlantic Ocean and, pertinent to our research area, the formation of marginal coastal sedimentary basins in Brazil.</p>
+		<p style="text-align:justify;text-indent: 4em;">In that decade, there was some unanimity among international scientists that the separation of South America and Africa, with the complete opening of the Atlantic Ocean, without a delayed connection, would have occurred in the Lower Cretaceous <sup> 3 </sup>. The Brazilian Northeast would be the last link between the two plates. From studies carried out in Brazil, this age began to be questioned, through information involving paleontology, geophysics and sedimentology (BEURLEN, 1971; TINOCO, 1971) where, up to the Upper Cretaceous, there would be a link, in the form of a “<b> <i> land bridge </i> </b>” between the two continents (RAND, 1976; RAND and MABESOONE, 1982).</p>
+        <p style="text-align:justify;text-indent: 4em;">According to Rand and Mabesoone (1982), before the beginning of the Africa-South America separation, in the region where the Paraíba Basin would later form, there was probably a system of failures, with EW direction, that crossed both continents, such as the Pernambuco Linearity, for example, still in the Lower Cretaceous. From the opening of the proto-ocean, to the north and south of this connection between them, the existing faults, as the separation progressed, facilitated the sliding of the plates, acting as transient faults, until the rupture of the bridge, in Campaniano (83.6-72.1 Ma.) - Maastrichtian (72.1-66 Ma.). Thereafter, the transverse faults changed to transforming faults and the Equatorial Atlantic Ocean joined the South Atlantic, in the Upper Cretaceous<sup>4</sup>.</p>
+        <p style="text-align:justify;text-indent: 4em;">Before the rupture of this bridge, during the Jurassic-Cretaceous, according to Asmus (1975) and Porto and Asmus (1978), adapting their evolutionary model for the Paraíba Basin, in the so-called pre-rift stage, there is a pre-volcanic swelling and stretching continental crust, with subsequent failure in blocks and subsidence, in a mixture of tectonic and eustatic factors (LIMA FILHO, 1998; LIMA FILHO et al., 2005), forming the marginal intracratonic basins and the horsts-grabens system that characterizes them and which will be properly analyzed in the next subchapter.</p>
+        <p style="text-align:justify;text-indent: 4em;">With the stabilization of the basement, as the divergence of plates advances, the thin and fractured crust of the northeastern coast cools and the terrain sinks, at the end of the Turonian (93.9-89.8 Ma, sensu PETRI, 1987; FEITOSA et al., 2002), along previously formed fault plans, generating a homoclinal and staggered ramp, gently sloping to the east, while the Pernambuco Basin rises (PETRI, 1987; LIMA FILHO et al., 2005). Alto de Mamanguape serves as a barrier that limits the Paraíba Basin, to the south, with the Natal Platform, to the north (FEITOSA et al., 2002).</p>
+        <p style="text-align:justify;text-indent: 4em;">In the Santoniano-Campaniano Inferior, deposition begins in the Paraíba Basin, in a depressed region, with clastic sedimentation of the <b> Beberibe Formations </b> and, later, <b> Itamaracá </b>, typical of the environment coastal (continental-estuarine) and transitional-marine, respectively (AMARAL et al., 1977), forming a continental clastic wedge. Asmus (1975) proposes that this filling started earlier, in Aptiano (125-113 Ma), while Lima Filho (1998) and Lima Filho et al. (2005) propose the Conakian (89.8-86.3 Ma) as the beginning of sedimentation, representing a regressive marine event, which shows that, despite the intense studies carried out within the scope of the evolution of the basin, the controversy remains.</p>
+        <p style="text-align:justify;text-indent: 4em;">At the beginning of Campaniano there will be a rapid submerging of the basin, as a result of the subsidence of the land that extends from Alto de Mamanguape to Alto de Touros, registered by the advance of the paleoline of the coast verified in well profiles and outcrops (BARBOSA et al., 2003). Old faults are reactivated and new ones are generated, including submerging the Alto de Mamanguape. Subsequently, with very rapid submersion, the clastic sediments of the <b> Beberibe Formation </b> and <b> Itamaracá Formation </b> are mixed with siltstones and sandstones from the coastal lake environment. At this moment, the carbonated clastic sediments from the highest southern areas would have covered the continental clastic sediments from the <b> Beberibe Formation </b>, in the Paraíba Basin. Therefore, it is considered a major evolutionary event that would have spread throughout this east coast. Feitosa et al. (2002) suggest the denomination of Pernambuco-Paraíba-Rio Grande do Norte Coastal Basin for this area that extends from the Pernambuco Shear Zone to Alto de Touros.</p>
+        <p style="text-align:justify;text-indent: 4em;">It should be noted that, in field research, the small presence of the clastic sequence of the <b> Beberibe Formation </b> and the <b> Itamaracá Formation </b> in the vicinity of the thesis area, northern portion of the Paraíba Basin, in relation to the abundance of this sedimentation in the Olinda sub-basin, close to Recife, it is possible to infer that the behavior of the coast paleoline during this initial subsidence phase was irregular (AMARAL et al., 1977). Some outcrops of rocks from the <b> Beberibe Formation </b> were found along the slopes of the Mumbaba River, one of which was selected as a Place of Interest: Outcrop of the Beberibe Formation.</p>
+        <p style="text-align:justify;text-indent: 4em;">At first, the sea invades only the sub-basins to the north, Miriri and Alhandra. Gradually, the Olinda sub-basin is submerged, while the transgression reached kilometers inland in the northern sub-basins. Phosphate deposition in the vicinity of João Pessoa is much further from the coastline than in the vicinity of Recife, indicating that the sea has advanced much further in this portion of the basin, which corroborates the possibility that the southern portion of the basin is higher than the North center. All of this information was confirmed with an extensive study of testimonies from surveys along the coast in question by several authors, such as Souza (2006) and Barbosa (2007).</p>
+        <p style="text-align:justify;text-indent: 4em;">At the end of Campaniano-Maastrichtiano Inferior, a metric layer of phosphorites is deposited that cover the <b> Itamaracá Formation </b>, outside the area of ​​the thesis, representing the maximum submersion of the basin, called Maximum Flood Surface, in a reducing environment with the presence of organic matter and clay minerals, where there is a significant reduction in the contribution of siliciclastic sedimentation.</p>
+        <p style="text-align:justify;text-indent: 4em;">The Maximum Flood Surface represents the replacement of a continental-marine transitional system tract, with the deposition of the clastic sedimentation of the <b> Beberibe Formation </b> and <b> Itamaracá Formation </b> for the carbonatic sedimentation of the <b> Gramame Formation </b>, already in a marine environment, which will last throughout the Maastrichtian (LIMA FILHO and SOUZA, 2001). This phosphate horizon was not deposited north of Alto de Mamanguape, on the east coast of Rio Grande do Norte, which may be representative that that area was topographically higher than the southern portion, not allowing submersion by ocean waters to the point of the Maximum Flood Surface reaches a great extent.</p>
+        <p style="text-align:justify;text-indent: 4em;">Phosphate deposition is the result of decreased sediment input, where clastic sediments hardly reach the interior of the basin (MENOR et al., 1977; MENOR and AMARAL, 1979; LIMA FILHO et al., 1998; SOUZA, 1999; LIMA FILHO and SOUZA, 2001; BARBOSA, 2004; SOUZA, 2006). The hot and dry climate (PETRI, 1987) favored this decrease in clastic sedimentation, associated with the influx of upwelling currents that increased the action of algae and benthic organisms, responsible for fixing phosphorus on the substrate (MABESOONE, 1981) . 
+        </p>
+        <p style="text-align:justify;text-indent: 4em;">As previously mentioned, the deposition of the <b> Gramame Formation </b> began, already under the influence of Thetys and the Equatorial Atlantic Ocean, since there was no longer a connection between Africa and South America (MAURY, 1930; OLIVEIRA, 1940; TINOCO, 1971; MUNIZ, 1993; CÓRDOBA et al., 2007). Throughout the Maastrichtian, the sedimentation environment of the limestone then formed was of high sea level, with no more than 100-150 m in depth and tectonic calm. At the end of the Maastrichtian, there was a strong regressive event, influenced by the drop in the eustatic level (HAQ et al., 1988), which exposed and eroded the limestones of the <b> Gramame Formation </b>, mainly in the northern sub-basins (BARBOSA, 2004; BARBOSA, 2007; BARBOSA et al., 2003; CÓRDOBA et al., 2007), probably concomitant with a tectonic elevation of this portion.</p>
+        <p style="text-align:justify;text-indent: 4em;">One of the great outcrops of the <b> Gramame Formation </b> in the area, located in the Intercement cement factory, was selected as a Place of Interest: Outcrop of the Gramame Formation, whose facies were described, sampled and analyzed in thin sheet.</p>
+        <p style="text-align:justify;text-indent: 4em;">In the last stage, from Daniano (66-61.6 Ma), already in a context of wide divergence of plates, the free circulation of ocean waters developed extensive carbonate platforms where, with marine regressions and transgressions, the frank marine stage. It is represented in the area by the limestones of the <b> Maria Farinha Formation </b>, associated with an Atlantic-type basin.</p>
+        <p style="text-align:justify;text-indent: 4em;">The carbonatic sedimentation of the <b> Maria Farinha Formation </b>, which succeeds the Gramame Formation, was deposited in a low-sea system tract, representing a regressive event from the Lower Paleocene, that is, in the Cretaceous-Tertiary passage . This sedimentation appears more abundantly in the Olinda sub-basin, where deposition was late, practically nonexistent in the Alhandra and Miriri sub-basins, where the transgression arrived earlier. In the thesis area, in the Alhandra sub-basin, this sequence appears sporadically on the south coast, on beaches such as Tambaba and Jacumã. Barbosa et al. (2003) suggest that the absence or restriction of deposits from the Paleocene of the <b> Maria Farinha Formation </b> in the northern portion of the basin may be due to its non-deposition or the erosion of this sequence when the platform was exposed, at the end of the Maastrichtiano, due to the sea level regression, or that the terrain to the north of the Goiana Fault has undergone an uplift, generating the forced regression of the sea level, which would have extended through the Paleogen (BARBOSA, 2007). Two Places of Interest were selected on this lithostratographic unit (Pedra do Amor and Praia de Tambaba), due to their exclusivity in the area and textural and structural characteristics, such as dissolution features and fossiliferous abundance.</p>
+        <p style="text-align:justify;text-indent: 4em;">The evolutionary model treated in this subchapter up to the Upper Cretaceous can be summarized in figure 2. The final result of the configuration of the basin is a tafrogenic system <sup> 5 </sup> forming uneven blocks, through the uplift or lowering of the terrain, defined as “<b> key tectonics </b>” (FORTES, 1986), along fault planes perpendicular to the coastline, with essentially NE direction and which will be analyzed below. The modeling exercised by exogenous factors in more recent periods resulted in a set of relief forms of spectacular beauty, which has intrinsic geotouristic qualities.</p>
+        <p style="text-align:justify;text-indent: 4em;">This subchapter included information about the regional geology of the basins associated with Paraíba, which, for some time, with very few exceptions, were considered to belong to the same tectonic and sedimentary filling stage. It aimed to trace a historical and comparative evaluation about the Paraíba and Pernambuco Basins, until recently considered a single basin, through significant bibliographic references for a better understanding.</p>
+        <div class="text-center">
+            <figure class="figure">
+                <a href="media/evolução2.png"><img src="media/evolução2.png" alt="" class="img-fluid"></a>
+            </figure>
+        </div>
+        <div class="text-center">
+            <figure class="figure">
+                <a href="media/evolução3.png"><img src="media/evolução3.png" alt="" class="img-fluid"></a><br>
+                <figurecaption class="figure-caption">Figure 2 - Stratigraphic evolution of the Paraíba Basin between the Coniaciano and the Maastrichtiano. Source: Souza (2006, p. 323).</figurecaption>
+            </figure>
+        </div>
+		<hr>
+		<span>
+			<sup>1</sup>In the scientific community, this line / shear zone appears under the name of Patos or Paraíba. For geographical reasons, we will choose, in this work, the name 'Paraíba', since it corresponds to the most eastern portion of this feature, already in the State of Paraíba, since Patos corresponds to a municipality in the 'Alto Sertão', 400 km away from Coast. <br>
+			<sup>2</sup>On this grouping of the two basins, we propose reading Asmus and Carvalho (1978), Rand and Mabesoone (1982), Mabesoone and Alheiros (1988, 1993), Feijó (1994) and Córdoba et al. (2007). <br>
+			<sup>3</sup>Among them, SCLATER et al. (1977) and SMITH and BRIDEN (1977), corroborating Beurlen's (1962) proposal. <br>
+			<sup>4</sup>According to Matos (1999), this rupture would have occurred much earlier, probably in Albiano (113-110 Ma). <br>
+			<sup>5</sup>According to Guerra (1987), it corresponds to a crustal sinking that leads to the formation and development of geological basins where sedimentation and / or volcanism accumulate corresponding to the development stages of a rift.
+			<sup></sup>
+			<sup></sup>
+		</span>
+
+
+	</main>
+
+
+
+
+  
+    <style>
+      .cls-1 {
+        fill: #43902d;
+        fill-rule: evenodd;
+      }
+	  h2.card-title{
+		  padding-top: 0px;
+		  font-family: 'Poppins', sans-serif;
+	  }
+	  .if{
+		  width: 20%;
+    	height: 20%;
+	  }
+	  .coimbra{
+		  width: 20%;
+    	height: 20%;
+	  }
+    .cegot{
+      width: 250px;
+    	height: 166px;
+
+    }
+	  .capes{
+		  width: 21.5%;
+    	height: 21.5%;
+	  }
+	  .asteritico{
+	  	color:red;}
+        .text-p{
+            display:inline-block;
+        }
+        #sfc7mlys1lu53r813rp817cxdxpekt7jzdk{
+            display: inline-block;
+        }
+        .fixed{
+            margin-right:10px;
+        }
+				body{
+					background-color: rgb(224, 223, 223);
+				}
+				.col-md-8{
+					background-color: rgb(224, 223, 223);
+
+				}
+        .dropdown:hover>.dropdown-menu {
+     		display: block;
+        background-color:grey;
+			}
+        footer{
+          text-align:center;
+        }
+
+    </style>
+
+			
+				
+		
+
+
+		
+		
+
+
+
+	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
